@@ -1,0 +1,18 @@
+﻿@using Sitecore
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Foundation.Theming.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+@Html.Sitecore().Placeholder("section")
+@{
+   var backgroundClass = Model.Rendering.GetBackgroundClass();
+}
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				@Html.Sitecore().Placeholder("postfooter")
+			</div>
+		</div>
+	</div>
+</div>

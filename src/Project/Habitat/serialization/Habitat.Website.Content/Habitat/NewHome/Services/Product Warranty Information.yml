@@ -1,0 +1,34 @@
+﻿---
+ID: "fe22b281-3e9a-46f3-9ccb-b0d82fdd23ce"
+Parent: "73c59589-2bc6-4200-a631-7bac9d33ae64"
+Template: "8ee208f9-a6a6-41e2-88a0-c188737a178c"
+Path: /sitecore/content/Habitat/NewHome/Services/Product Warranty Information
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Product Warranty Information
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T132158Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{BCB50FB9-9947-4D2A-843D-EBB66D25CFF1}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Product warranties for peace of mind
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Product Warranty Information
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Experience Design

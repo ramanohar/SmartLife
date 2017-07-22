@@ -1,0 +1,20 @@
+﻿---
+ID: "79064396-848f-4489-8d36-ef27550b56c8"
+Parent: "711879c9-b4fa-4a9d-b0ef-67950b9a0445"
+Template: "b4f6f114-e653-4a22-86c5-499e0bd99d9a"
+Path: /sitecore/content/Habitat/NewHome/Modules/Feature/Demo/_Local/Demo Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bc0aedf-a6d0-4f74-933c-bd1779cd40b2"
+      Hint: HTML Content
+      Value: |
+        <div class="well">
+           This box can contain any HTML. <br/>Use the "Edit item" button in the page editor to edit the raw HTML content.
+        </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161201T030745Z

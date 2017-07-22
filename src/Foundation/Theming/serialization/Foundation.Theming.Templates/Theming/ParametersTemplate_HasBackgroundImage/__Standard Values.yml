@@ -1,0 +1,14 @@
+﻿---
+ID: "e5fd56ff-2122-4bef-a629-3da4f2321c64"
+Parent: "63f66421-6dd3-4ee3-9077-21e39ee2e910"
+Template: "63f66421-6dd3-4ee3-9077-21e39ee2e910"
+Path: /sitecore/templates/Foundation/Theming/ParametersTemplate_HasBackgroundImage/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170317T052348Z

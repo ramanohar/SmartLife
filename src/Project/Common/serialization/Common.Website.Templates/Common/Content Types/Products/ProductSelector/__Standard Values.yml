@@ -1,0 +1,18 @@
+﻿---
+ID: "fb2abf74-25cb-45a4-ae4d-d77aeb35fef2"
+Parent: "ea5951a1-22da-4d7a-9b10-5b166c56a481"
+Template: "ea5951a1-22da-4d7a-9b10-5b166c56a481"
+Path: /sitecore/templates/Project/Common/Content Types/Products/ProductSelector/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170406T072825Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

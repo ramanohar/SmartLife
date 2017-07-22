@@ -1,0 +1,17 @@
+﻿---
+ID: "d0872b42-1fdb-416d-8bbb-5c933b8a947b"
+Parent: "d2d56127-f145-4ec2-84b9-d5522dcbbea3"
+Template: "061574e1-59dd-4b62-9680-1c84efbe6773"
+Path: /sitecore/content/Habitat/NewHome/Modules/Feature/Media/_Local/Videos Headline
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161214T012930Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Videos

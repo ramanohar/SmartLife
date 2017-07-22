@@ -1,0 +1,14 @@
+﻿---
+ID: "e6f5b7bd-7edd-4b74-afb8-a8d3999485e4"
+Parent: "ff5bec9f-a17e-44ea-8ea2-53f9cf5aa79d"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Habitat/Images/Product/banner/refrigerator
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170408T064739Z

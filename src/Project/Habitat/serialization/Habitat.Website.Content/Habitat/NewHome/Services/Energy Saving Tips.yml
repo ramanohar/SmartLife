@@ -1,0 +1,34 @@
+﻿---
+ID: "05b4e0e3-909c-4040-829d-e69b59b67c9d"
+Parent: "73c59589-2bc6-4200-a631-7bac9d33ae64"
+Template: "8ee208f9-a6a6-41e2-88a0-c188737a178c"
+Path: /sitecore/content/Habitat/NewHome/Services/Energy Saving Tips
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Energy Saving Tips
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T101058Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{0EED73B0-6E25-4313-B123-D585FEC1DB64}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Easy ways to start saving energy today. Lets start saving !"
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Energy Saving Tips
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: SharePoint

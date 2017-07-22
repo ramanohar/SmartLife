@@ -1,0 +1,55 @@
+﻿---
+ID: "3ec4f9ce-255a-419d-b058-94b7ae596b0b"
+Parent: "3206ba26-779c-438a-8214-946db99ea596"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Habitat/Images/Common/phone-symbol"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/3EC4F9CE255A419DB05894B7AE596B0B.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 69
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "8142b77b-dc88-494f-9340-d8477fcac9be"
+  Value: iVBORw0KGgoAAAANSUhEUgAAAEUAAAA+CAYAAAB9aNYrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQYSURBVHhe7Zu/LzRBGMdff4CEXq1Q0SnRyBX+AVERCSIKKo04CREhEZEolDQ6EgpREdGIBLlChERBRCKI378f9913Lu6ee2Zvj9mbvbWf5Fvw7jy787E7Ozv77j+KyCIvKUtLSxSPx6m+vp7Ky8uppKQk0MEx4lhxzDh2r3iSsru7SzU1NeKOiynoA/qSi5xSYFnaQTEHfXLDVcrg4KBYNAyZnJxUvcxGKwWnmVQsTNFdSlopYRhDcgV9lBClLC4uikXCGPSVI0oJ81jCg75yRCl1dXVigTAGfeWIUophYmYq6CtHlCI1DnM4kZRkOL5KaWhocCZJs7OzgR6nOL5I6e3tpfPzc/r8/FQV/08GKysrxe1th2NcSkdHB11fX6tK37y+vtLo6KjYxnY4RqVUVVXR4eGhqpIN/g3bSG1thmNUyszMDH18fKgq2by/v9P09LTY1mY4xqRgvDg4OFAV9JydnVEsFhNr2ArHmJTm5ma6ublRFfRg8F1bW6PS0lKxjo1wjEkZGhqil5cXVcGdh4cH6uvrE+vYCMeKlKenJ+rv7xfr2AjHmJTu7m66v79XFfRgsJ2fn/8blw9mr6enp6qCzOPjI01NTYntbYZjTAqysbGhKmSDCV1PT4/YznY4RqVgxoqZKwdzF8xhpDZBCMeolNraWjo5OVFVMlleXhbbBCEco1IQ3Zs4zGE6OzvFNrbDMS6lq6uL7u7uVKVMtre3A3XXSYVjXAqiG3Ax3kxMTIhtbIbji5T29nZx+QDg91hekNrZCscXKcjCwkLGIlM6e3t7gVpC4PgmBZ1G53UESQzHNylIa2srXV1dqaqZ4CzCEiVu41Lb9FRUVND4+Lhvkz+Or1KQ4eFh5wFQx/HxMbW0tIhtEUjb3993toXI9fV1TyLzCcd3KUguMbe3t84zEb9d4+fNzU211TfYfm5uzjmD0rf/aTgFkYLgNYfb0gLOgqOjI2pra3O2hxA8TeOpWsfFxQWNjIz8eu7DKZgUBOuzbmcMeHt7o52dHdra2nIVkgIysQz6myVOTkGlIHhoxBKCSSAPL92k/XkJp+BSEDwD4dQ3xfPzMw0MDIj78hKOFSkIXqMmEgntBC8fILipqUncj5dwrElBMEDiruPlLYAbeNaS6nsNx6qUVDDvWFlZcVb58wXrN799j8QJhJRUMO8YGxtzOprrssJdCu+PTDwqcAIlJT3462OCBkEQAHCXuby8pNXVVWpsbBTb/SScwEopZDiRlGQ4kZRkOJGUZDiRlGQ4kZRkOKKUsrIysXEYg75yRCnRf0MXiD5YEIg+bdFQXV0tFglT0EcJrZToczkN0YeVGsIoxk0IyCkF4DQLwxiDPugumXQ8SUmBkRpnDu7txTDBwzHiWHHM0l1GR15S/gZEX3Jg7t/sDCHHAAAAAElFTkSuQmCC
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1155
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: PNG
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 69 x 62
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 62
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170320T052558Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170320T052558Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

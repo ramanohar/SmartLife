@@ -1,0 +1,14 @@
+﻿---
+ID: "a0d04dd9-69d0-4ae5-9863-c23cabdbfd34"
+Parent: "fa60de8b-3c26-4ef2-a45d-fdcdf0062b53"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Habitat/Images/Product Categories/Air Conditioners/Casement-Air-Conditioner-Frigidaire-10-000-BTU-115-FFRS1022R1"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170407T105916Z

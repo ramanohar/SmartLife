@@ -1,0 +1,39 @@
+﻿---
+ID: "4a9e833a-cf32-4753-96dd-f78ce9cd174b"
+Parent: "7a02d67f-9b00-47d7-8cd1-79a8b95ec4d3"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
+Path: "/sitecore/content/Habitat/Global/Links/Footer Menu/Col-3/Community"
+DB: master
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Fællesskab
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160112T164848Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: |
+        <link text="" linktype="external" url="http://community.sitecore.net" anchor="" title="" class="" querystring="" target="_blank" id="" />
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Community
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150910T105859Z
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: |
+        <link text="" linktype="external" url="http://community.sitecore.net" anchor="" title="" class="" querystring="" target="_blank" id="" />

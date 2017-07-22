@@ -1,0 +1,25 @@
+﻿---
+ID: "b80f411f-11ab-4287-a22a-89c1e8ddbb8b"
+Parent: "ade4287d-37c8-4d94-8ab6-a95df65efd26"
+Template: "cf47dbae-6e22-465a-b9b5-3eb6bcf9ecbf"
+Path: /sitecore/system/Modules/Web Forms for Marketers/Habitat/Reach Us/Second Half
+DB: master
+SharedFields:
+- ID: "358e7aa0-e3e6-4ef6-92df-ec1301737b50"
+  Hint: Parameters
+  Value: "<CssClass>col-sm-6</CssClass><ShowLegend>Yes</ShowLegend>"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170327T103743Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "821724f3-30bb-4152-a770-88bc43ac175a"
+      Hint: Title
+      Value: .

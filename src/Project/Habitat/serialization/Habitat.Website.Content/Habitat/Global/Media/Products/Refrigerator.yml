@@ -1,0 +1,18 @@
+﻿---
+ID: "916cd71c-0dec-4971-a977-c47c422d0bb0"
+Parent: "ed7f1efa-7fa5-46c4-9385-010b94516169"
+Template: "920a1781-559f-4e1c-bb2e-6b9a2113fe6b"
+Path: /sitecore/content/Habitat/Global/Media/Products/Refrigerator
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170408T072402Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,22 @@
+﻿---
+ID: "7bb14781-98cf-4089-a2e1-e5426d7e134d"
+Parent: "db594cc6-cbf6-4450-9c6f-3203385ab591"
+Template: "c18d3794-d126-4548-bfc8-89358de6e9c1"
+Path: /sitecore/content/Habitat/Global/Media/ABTest/DatasourceItem/DatasourceItem1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170411T100550Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "72ea8682-24d2-4beb-951c-3e2164974105"
+      Hint: MediaSelector
+      Type: Multilist
+      Value: "{6EBF3F6E-AA3A-4B44-A04A-2818FA32D211}"

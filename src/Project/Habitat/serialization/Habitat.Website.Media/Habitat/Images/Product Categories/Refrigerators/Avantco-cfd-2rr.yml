@@ -1,0 +1,14 @@
+﻿---
+ID: "4379089f-3644-4286-8a38-3cd1b7e0c6c0"
+Parent: "b0ce1d65-0501-4eaa-801b-3de1e6479a8e"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Habitat/Images/Product Categories/Refrigerators/Avantco-cfd-2rr"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170406T130205Z

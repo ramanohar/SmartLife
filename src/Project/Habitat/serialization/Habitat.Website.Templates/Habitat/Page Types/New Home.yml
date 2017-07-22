@@ -1,0 +1,28 @@
+﻿---
+ID: "6310c734-5c02-43fe-8ae8-9b3adcf4bb41"
+Parent: "85086bb5-0365-48d7-98b1-cb9b1b6392ca"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Habitat/Page Types/New Home
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Network/32x32/home.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {D88CCD80-D851-470D-AF11-701FF23504E7}
+    {F9F4FC05-98D0-4C62-860F-F08AE7F0EE25}
+    {A1CBA309-D22B-46D5-80F8-2972C185363F}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{469DED3F-1393-4675-B230-A4AE191F72F4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170314T050847Z

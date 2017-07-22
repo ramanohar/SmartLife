@@ -1,0 +1,32 @@
+﻿---
+ID: "0e383b8c-2ef6-4f83-99ff-742fbb5c0155"
+Parent: "cc808780-a8eb-4168-9548-2ff9eb514564"
+Template: "f0369e1a-9030-4a05-a09c-ef09b664ed27"
+Path: /sitecore/content/Habitat/Global/Media/Carousel Folder/ImageA
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170315T093515Z
+    - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
+      Hint: MediaDescription
+      Value: Life made easy with SmartLife Commercial Appliances
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "63dda48b-b0cb-45a7-9a1b-b26ddb41009b"
+      Hint: MediaTitle
+      Value: Rise and shine. Without losing your peace of mind.
+    - ID: "9f51dead-ad6e-41c2-9759-7be17eb474a4"
+      Hint: MediaImage
+      Value: |
+        <image mediaid="{42A7FD61-B32E-4E52-8BE6-79E07FAC7ACD}" />
+    - ID: "b8839d85-7e29-426d-86ec-1a6c38804a0b"
+      Hint: BackgroundMediaImage
+      Value: |
+        <image mediaid="{AC387988-845D-46DB-AE58-2387456EDA41}" />

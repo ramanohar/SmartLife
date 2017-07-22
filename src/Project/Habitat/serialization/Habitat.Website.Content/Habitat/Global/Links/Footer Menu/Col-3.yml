@@ -1,0 +1,17 @@
+﻿---
+ID: "7a02d67f-9b00-47d7-8cd1-79a8b95ec4d3"
+Parent: "0f916de7-60ac-4833-b480-865f26f1dd56"
+Template: "ac7394d5-2aa7-4fdb-a7d8-b1b87f9fa661"
+Path: "/sitecore/content/Habitat/Global/Links/Footer Menu/Col-3"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150910T105348Z
+    - ID: "4d4bb1e0-7410-48a2-9917-9fa5efd9c838"
+      Hint: HeaderTitle
+      Value: DEVELOPERS

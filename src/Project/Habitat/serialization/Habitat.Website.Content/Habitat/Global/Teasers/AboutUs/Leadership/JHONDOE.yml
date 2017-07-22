@@ -1,0 +1,31 @@
+﻿---
+ID: "abc4e409-3871-45ea-82bf-9f02f97fc03b"
+Parent: "6e7cc965-7b4e-4a81-8509-b53b48a4923e"
+Template: "bee79706-e857-433c-a69a-3711a1477363"
+Path: /sitecore/content/Habitat/Global/Teasers/AboutUs/Leadership/JHONDOE
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170404T121557Z
+    - ID: "46031548-ab53-4f58-a846-8577465a7233"
+      Hint: Leaders Image
+      Value: |
+        <image mediaid="{FD0B4674-02D7-49CB-98FA-62D4685213EB}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6f6df91a-aad1-4299-bb47-1c56b350ff91"
+      Hint: Description
+      Value: There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+    - ID: "b0fff664-1ab7-4b2b-b1f9-4558f910a4df"
+      Hint: Leaders Designation
+      Value: Founder and CEO
+    - ID: "b7ce7660-7d69-4c1e-b74c-82bd49563069"
+      Hint: Leaders Title
+      Value: JHON DOE

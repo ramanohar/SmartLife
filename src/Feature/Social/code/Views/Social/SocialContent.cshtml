@@ -1,0 +1,131 @@
+﻿@using Sitecore.Feature.Social
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Foundation.Alerts
+@using Sitecore.Foundation.Alerts.Extensions
+@*@using Sitecore.Foundation.Dictionary.Extensions*@
+@using Sitecore.Foundation.SitecoreExtensions.Repositories
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+    const int DefaultColumns = 4;
+
+    var children = Model.Item.Children.Where(i => i.IsDerived(Templates.LeaderShip.ID) && i.HasContextLanguage()).ToArray();
+    var numColumns = children.Length >= DefaultColumns ? DefaultColumns : (children.Length <= 2 ? 2 : children.Length);
+
+    // string[] percentvalue = new string[4] { "joomla-skill", "html-skill", "css-skill", "wp-skill" };
+    int count = 0;
+    var maindiv = "";
+    //var opentag = "";
+    //var closetag = "";
+}
+
+<div class='row clearfix'>
+    
+    @foreach (Sitecore.Data.Items.Item item in children)
+    {
+        if (count != 0)
+        {
+            maindiv = "col-md-offset-2";
+        }
+        <div class="col-md-4 col-sm-6 @maindiv">
+            <div class="single-profile-top wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown;">
+                <div class="media">
+                    <div class="pull-left">
+                        <a href="#">
+                            @*@Html.Sitecore().ImageField(Templates.LeaderShip.Fields.LeadersImage, item, cssClass: "media-object")*@
+                            <img src=@item.ImageUrl(Templates.LeaderShip.Fields.LeadersImage, new Sitecore.Resources.Media.MediaUrlOptions()).ToCssUrlValue() class="media-object"/>
+                            @*<img class="media-object" src="images/man1.jpg" alt=""></a>*@
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4>@Html.Sitecore().Field(Templates.LeaderShip.Fields.FeedTitle, item)</h4>
+                        <h5>@Html.Sitecore().Field(Templates.LeaderShip.Fields.LeaderDesignation, item)</h5>
+                        @*<ul class="tag clearfix team">
+                            <li class="btn"><a href="#">Tag</a></li>
+                            <li class="btn"><a href="#">Tag</a></li>
+                            <li class="btn"><a href="#">Tag</a></li>
+                            <li class="btn"><a href="#">Tag</a></li>
+                        </ul>*@
+
+                        <ul class="social_icons">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                </div><!--/.media -->
+                <p>
+                    @Html.Sitecore().ImageField(Templates.LeaderShip.Fields.Description, item)
+                    @*There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.*@
+                </p>
+            </div>
+        </div>
+
+        if (count == 1)
+        {
+            <div class="row team-bar">
+                <div class="first-one-arrow hidden-xs">
+                    @*<hr>*@
+                </div>
+                <div class="first-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-up"></i>
+                </div>
+                <div class="second-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-down"></i>
+                </div>
+                <div class="third-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-up"></i>
+                </div>
+                <div class="fourth-arrow hidden-xs">
+                    <hr> <i class="fa fa-angle-down"></i>
+                </div>
+            </div>
+        }
+
+        if (count == 1)
+        {
+            break;
+        }
+        count = count + 1;
+    }
+</div>
+
+<div class='row clearfix'>
+    @for(int i=2; i< children.Count();i++)
+    { 
+    @*@foreach (Sitecore.Data.Items.Item item in children)
+    {*@        
+        <div class="col-md-4 col-sm-6 col-md-offset-2">
+            <div class="single-profile-top wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown;">
+                <div class="media">
+                    <div class="pull-left">
+                        <a href="#">
+                            @*@Html.Sitecore().ImageField(Templates.LeaderShip.Fields.LeadersImage, children[i], cssClass: "media-object")*@
+                            <img src=@children[i].ImageUrl(Templates.LeaderShip.Fields.LeadersImage, new Sitecore.Resources.Media.MediaUrlOptions()).ToCssUrlValue() class="media-object" />
+                            @*<img class="media-object" src="images/man1.jpg" alt=""></a>*@
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4>@Html.Sitecore().Field(Templates.LeaderShip.Fields.FeedTitle, children[i])</h4>
+                        <h5>@Html.Sitecore().Field(Templates.LeaderShip.Fields.LeaderDesignation, children[i])</h5>
+                        @*<ul class="tag clearfix team">
+                            <li class="btn"><a href="#">Tag</a></li>
+                            <li class="btn"><a href="#">Tag</a></li>
+                            <li class="btn"><a href="#">Tag</a></li>
+                            <li class="btn"><a href="#">Tag</a></li>
+                        </ul>*@
+
+                        <ul class="social_icons">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                </div><!--/.media -->
+                <p>
+                    @Html.Sitecore().ImageField(Templates.LeaderShip.Fields.Description, children[i])
+                    @*There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.*@
+                </p>
+            </div>
+        </div>
+    }
+</div>

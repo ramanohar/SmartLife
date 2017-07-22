@@ -1,0 +1,18 @@
+﻿---
+ID: "6e7cc965-7b4e-4a81-8509-b53b48a4923e"
+Parent: "684ed0dd-8f16-4761-bc6f-62cbc4116d31"
+Template: "29d4b405-39eb-487d-9d6b-3f8467ab167d"
+Path: /sitecore/content/Habitat/Global/Teasers/AboutUs/Leadership
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170404T121439Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

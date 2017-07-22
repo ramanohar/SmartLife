@@ -1,0 +1,35 @@
+﻿---
+ID: "5013ccb7-3e21-4f25-973c-3787c451cba4"
+Parent: "9014b242-2220-4ce4-87ea-cf51c8758f21"
+Template: "8ee208f9-a6a6-41e2-88a0-c188737a178c"
+Path: /sitecore/content/Habitat/NewHome/Partners/Akzo Nobel
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Akzo Nobel
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T101157Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{41E33B08-AD3B-4FDB-99AE-9B70A060CC64}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: |
+        <span style="background-color: #ffffff; text-align: start; letter-spacing: normal; color: #4e4e4e;">Lorem ipsum dolor sit ame consectetur adipisicing elit</span>
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Akzo Nobel
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Adobe AEM

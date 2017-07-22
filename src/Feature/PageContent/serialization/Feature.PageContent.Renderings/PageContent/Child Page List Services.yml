@@ -1,0 +1,22 @@
+﻿---
+ID: "0503d9d1-c05c-4954-9a12-ed506b799250"
+Parent: "d5d2ab0a-3909-4e22-af15-3bef1e97a0c0"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Feature/PageContent/Child Page List Services
+DB: master
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/PageContent/ChildPageListServices.cshtml
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{CBA9AFCB-5E6B-459C-9E1E-066E0E9D1C85}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151026T034211Z

@@ -1,0 +1,189 @@
+﻿@using Sitecore.Foundation.Alerts
+@using Sitecore.Foundation.Alerts.Models
+@using Sitecore.Foundation.Dictionary.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc.Configuration
+@model Sitecore.Feature.Accounts.Models.EditProfile
+@using (Html.BeginRouteForm(MvcSettings.SitecoreRouteName, FormMethod.Post, new
+{
+    @class = "form-signin"
+}))
+{
+    @Html.AddUniqueFormId()
+    var info = Session.GetAndRemove("EditProfileMessage") as InfoMessage;
+    if (info != null)
+    {
+        Html.RenderPartial(Constants.InfoMessageView, info);
+    }
+
+    <div class="form-group has-feedback">
+        @Html.LabelFor(x => x.Email, new
+   {
+       @class = "control-label"
+   })
+        @Html.TextBoxFor(x => x.Email, new
+   {
+       @class = "form-control",
+       id = "email",
+       @readonly = true
+   })
+        <span class="glyphicon glyphicon-lock form-control-feedback" aria-hidden="true"></span>
+    </div>
+
+    <div class="form-group @Html.ValidationErrorFor(x => x.FirstName, "has-error")">
+        @Html.LabelFor(x => x.FirstName, new
+   {
+       @class = "control-label"
+   })
+        @Html.TextBoxFor(x => x.FirstName, new
+   {
+       @class = "form-control",
+       id = "firstName",
+       placeholder = Html.Sitecore().Dictionary("/Accounts/Edit Profile/Edit Profile First Name Placeholder", "Please enter your first name")
+   })
+        @Html.ValidationMessageFor(x => x.FirstName, "", new
+   {
+       @class = "help-block"
+   }, "p")
+    </div>
+
+    <div class="form-group @Html.ValidationErrorFor(x => x.LastName, "has-error")">
+        @Html.LabelFor(x => x.LastName, new
+   {
+       @class = "control-label"
+   })
+        @Html.TextBoxFor(x => x.LastName, new
+   {
+       @class = "form-control",
+       id = "lastName",
+       placeholder = Html.Sitecore().Dictionary("/Accounts/Edit Profile/Edit Profile Last Name Placeholder", "Please enter your last name")
+   })
+        @Html.ValidationMessageFor(x => x.LastName, "", new
+   {
+       @class = "help-block"
+   }, "p")
+    </div>
+
+    <div class="form-group @Html.ValidationErrorFor(x => x.PhoneNumber, "has-error")">
+        @Html.LabelFor(x => x.PhoneNumber, new
+   {
+       @class = "control-label"
+   })
+        @Html.TextBoxFor(x => x.PhoneNumber, new
+   {
+       @class = "form-control",
+       id = "phoneNumber",
+       placeholder = Html.Sitecore().Dictionary("/Accounts/Edit Profile/Edit Profile Phone Placeholder", "Please enter your contact phone number")
+   })
+        @Html.ValidationMessageFor(x => x.PhoneNumber, "", new
+   {
+       @class = "help-block"
+   }, "p")
+    </div>
+
+    <div class="form-group @Html.ValidationErrorFor(x => x.Interest, "has-error")">
+        @Html.LabelFor(x => x.Interest, new
+   {
+       @class = "control-label"
+   })
+        @Html.DropDownListFor(x => x.Interest, new SelectList(Model.InterestTypes), "", new
+   {
+       @class = "form-control",
+       id = "interests"
+   })
+        @Html.ValidationMessageFor(x => x.Interest, "", new
+   {
+       @class = "help-block"
+   }, "p")
+    </div>
+
+    <input type="submit" class="btn btn-primary btn-lg btn-block" value="@Html.Sitecore().DictionaryField("/Accounts/Edit Profile/Update", "Update")" />
+}
+
+<div class="row" style="margin-bottom: 20px; background-color:white;">&nbsp;</div>
+<div class="row col-md-2 col-xs-12"></div>
+<div class="row form col-md-8 col-sm-12 login-box" id="divOrder" runat="server" visible="false">
+
+
+
+    <div class="form-horizontal" style="display: block">
+        <h2>My Orders</h2>
+        <div>
+            <div style="background-color: #EFEFEF; font-weight: 700; font-size: 14px;">Order details</div>
+            <div style="border: 1px solid #EFEFEF; font-size: 13px; font-family: Arial, sans-serif;">
+                <div style="float: left; width: 50%; border-right: 1px solid #EFEFEF; padding: 5px;">
+                    <div><font style="font-weight: 700;">Order ID</font>: GH1001</div>
+                    <div><font style="font-weight: 700;">Date Added</font>: 12/03/2017</div>
+                    <div><font style="font-weight: 700;">Payment Method</font>: Cash</div>
+                </div>
+                <div style="float: left; width: 50%; padding: 5px;">
+                    <div><font style="font-weight: 700;">E-mail</font>: @model.Email </div>
+                    <div><font style="font-weight: 700;">Telephone</font>: @model.PhoneNumber </ div >
+                    <div><font style="font-weight: 700;">Order Status</font>: sucessfull</div>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <style type="text/css">
+        table, th, td {
+            border: 1px solid #EFEFEF;
+            border-collapse: collapse;
+        }
+
+            table th {
+                font-weight: bold;
+                background-color: #EFEFEF;
+                text-align: left;
+                padding: 5px;
+            }
+
+        td {
+            padding: 5px;
+        }
+
+        .tableSectionDiv {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table tr:last-child td {
+            border: none;
+        }
+    </style>
+    <div class="tableSectionDiv">
+        <table style="width: 100%">
+            <thead>
+                <tr>
+                    <th>Product</th>                   
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>@model.ProductName </td>
+                <td>1</td>
+                <td>$2500</td>
+                <td>$2500</td>
+            </tr>
+
+
+            <tr style="border-collapse: none;">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="text-align: right;"><font style="font-weight: bold;">Total:</font></td>
+                <td>$2500</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+</div>
+
+
+<div class="row col-md-2 col-xs-12"></div>

@@ -1,0 +1,250 @@
+﻿---
+ID: "14e4f38a-6380-4320-9c05-e46ff44ef253"
+Parent: "6383defc-59f2-4f91-9ee5-f466481b1194"
+Template: "c5b8584b-a263-4169-aea1-2ff6a1cff371"
+Path: "/sitecore/content/Habitat/NewHome/Products/Refrigerator/Refrigerator-Beverage-Air-Market-Max-2-Section-GlassDoor-Dual-Temperature-49-cu-ft"
+DB: master
+SharedFields:
+- ID: "0be11d55-96e6-408a-be0e-83836db67232"
+  Hint: "Product-Image"
+  Value: |
+    <image mediaid="{D0A3DBEB-60B1-49B2-97B3-FF9A90953CBC}" />
+- ID: "4b517cb2-ab6e-4512-bec3-943778e02bb2"
+  Hint: "Product-Large-Image"
+  Value: |
+    <image mediaid="{D0A3DBEB-60B1-49B2-97B3-FF9A90953CBC}" />
+- ID: "77c15b3e-ba56-4719-843d-c0bbae6cc215"
+  Hint: Rating
+  Value: |
+    <img alt="" /><img alt="" /><img alt="" /><img alt="" /><img alt="" />
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{4C7FD0A7-7ED8-4BF4-89A3-D7A08A4B0CEB}"
+        name="Smartlifeappliances-Products-Profile"
+        presets="beverageairmarketmaxmmrf-persona|100||">
+        <key
+          name="Frigidaire-ProfileKey"
+          value="0" />
+        <key
+          name="GEZoneline-ProfileKey"
+          value="0" />
+        <key
+          name="Maytag27WhiteEco-ProfileKey"
+          value="0" />
+        <key
+          name="BeverageAirMarketMaxMMRF-ProfileKey"
+          value="1" />
+        <key
+          name="Samsung48Cu-ProfileKey"
+          value="0" />
+        <key
+          name="AvantcoCFD-2RR-G-ProfileKey"
+          value="0" />
+      </profile>
+      <profile
+        id="{897E0D6D-31D0-4DA2-8684-27ACD96A7330}"
+        name="Smartlifeappliances-Category-Profile"
+        presets="referigerator-profilecard-persona|100||">
+        <key
+          name="WashingMachine"
+          value="0" />
+        <key
+          name="AC"
+          value="0" />
+        <key
+          name="Referigerator"
+          value="1" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d4a62ee-bf47-4fbe-b35a-55631cced460"
+      Hint: Features
+      Value: |
+        White exterior, white interior<br />
+        Lighted sign panel<br />
+        Digital temperature display<br />
+        Tempered glass doors<br />
+        Swing doors<br />
+        (5) adjustable shelves per section<br />
+        LED Lighting
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: "Beverage Air Market Max MMRF49-1-WW-LED"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T090701Z
+    - ID: "398aaabe-2e1a-4e7c-a4a6-0f7afc544d93"
+      Hint: Description
+      Value: |
+        Double your merchandising possibilities with this Beverage Air MMRF49-1-WW-LED white 2 section glass door dual temperature merchandiser! With 49 cubic feet of storage, a lighted sign panel, and digital temperature monitoring, this merchandiser allows you to easily monitor quality and increase impulse sales of all your chilled and frozen goods!<br />
+        <br />
+        - Lighted sign panel<br />
+        <br />
+        - Refrigerator section has self-contained bottom mount refrigeration system with 1/3 hp compressor, R-134a refrigerant, CFC/ HCFC-free polyurethane insulation<br />
+        <br />
+        - Freezer section has expansion valve refrigerant control for energy savings, 1/2 hp compressor, R-404A refrigerant; fully automatic defrost system&nbsp;<br />
+        <br />
+        - Tempered glass door panes for safety; refrigerator has double pane heated glass door, freezer has triple pane heated glass door&nbsp;<br />
+        <br />
+        - White-coated steel interior walls<br />
+        <br />
+        - Ergonomically designed swing doors with stay-open feature and anti-microbial door handles&nbsp;<br />
+        <br />
+        - Refrigerator section holds 36 to 38 degrees Fahrenheit; freezer section holds -10 to -15 degrees Fahrenheit&nbsp;<br />
+        <br />
+        - 115V
+    - ID: "40d24aa7-4aaf-48c1-86bb-b0f00c3dc525"
+      Hint: Discounted Price
+      Value: $5500
+    - ID: "527bcbf8-a38c-4393-8d9d-88189d0c84eb"
+      Hint: Product Sub Title
+      Value: 
+    - ID: "71d65caf-388f-4a54-b386-5c0cafc6cde1"
+      Hint: Shipping
+      Value: Free Shipping
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{347ED214-008B-4ACF-9EA9-F58A45E6AA68}"></image>
+    - ID: "9d615e6c-6493-4a5a-9f15-27adf03ea198"
+      Hint: Price
+      Value: $6,968.77
+    - ID: "a7a9e7db-2d07-4600-ba59-19b75984d982"
+      Hint: Specification
+      Value: |
+        <table cellpadding="0" cellspacing="0" class="table table-stylized table-bordered table-striped" style="color: #3b3d3b; background-color: #ffffff; width: 319px; margin-bottom: 0px; border-spacing: 0px; border-right: none; border-left: 0px; border-bottom-color: #dadbd9; border-top-color: #aeb0ad;">
+            <thead class="toolbar" style="opacity: 1; height: auto; padding-right: 6px; border-width: 1px; border-style: solid; border-color: #a9aba8 #a9aba8 #949793;">
+                <tr>
+                    <th colspan="2" style="padding: 8px 8px 5px; border-bottom-color: #a1a4a0; border-left-color: #aeb0ad; border-right-color: rgba(59, 61, 59, 0.247059);">SPECS</th>
+                </tr>
+            </thead>
+            <tbody id="tbSpecSheetRows">
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-top: none; border-left-color: #dadbd9; text-align: left;">Width</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-top: none; border-left-color: #dadbd9; border-right-color: #dadbd9; text-align: left;">52 Inches</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Depth</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">33 3/4 Inches</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Height</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">78 Inches</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Interior Width</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">49 Inches</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Interior Depth</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">28 1/2 Inches</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Interior Height</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">61 3/4 Inches</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Hertz</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">60</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Phase</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">1</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Voltage</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">115 Volts</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Amps - Freezer</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">10.9</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Amps - Refrigerator</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">5.8</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Capacity</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">49 cu. ft.</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Color</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">White</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Compressor Location</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Bottom Mounted</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Door Style</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Swing</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Door Type</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Glass</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Features</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">LED Lighting</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Horsepower - Freezer</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">1/2 HP</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Horsepower - Refrigerator</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">1/3 HP</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Number of Doors</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">2</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Number of Shelves</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">10</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Sections</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">2</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Temperature Range - Freezer</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">-15 - -10 Degrees F</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="185MMRF49W">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Temperature Range - Refrigerator</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">36 - 38 Degrees F</td>
+                </tr>
+            </tbody>
+        </table>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Double your merchandising possibilities with this Beverage Air MMRF49-1-WW-LED !"
+    - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
+      Hint: MetaDescription
+      Value: "Beverage Air Market Max MMRF49-1-WW-LED"
+    - ID: "c236fb11-ab2f-42a7-92a7-09a9258e2637"
+      Hint: Product Title
+      Value: "Beverage Air Market Max MMRF49-1-WW-LED White 2 Section Glass Door Dual Temperature Merchandiser - 49 Cu. Ft."
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "Beverage Air Market Max MMRF49-1-WW-LED"
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: "Beverage Air Market Max MMRF49-1-WW-LED"
+    - ID: "de1430c5-291b-40c2-ad2d-709efbb7360a"
+      Hint: Short Description
+      Value: "Double your merchandising possibilities with this Beverage Air MMRF49-1-WW-LED white 2 section glass door dual temperature merchandiser!"
+    - ID: "fdc46723-8fd1-44c0-9938-c7bc00a81768"
+      Hint: Reviews
+      Value: |
+        <p class="header-4" style="color: #3b3d3b; background-color: #ffffff; padding: 0px 0px 5px; border-bottom: 1px solid #dadbd9;">Warranty Info</p>
+        <p style="color: #3b3d3b; background-color: #ffffff;">Note: Beverage Air equipment purchased in 2013 or later will have a 3 year parts and labor warranty. Equipment purchased prior to 2013 will have a 1 year parts and labor warranty. RESIDENTIAL USERS: The right is reserved to deny shipment for residential usage; if this occurs, you will be notified as soon as possible.</p>

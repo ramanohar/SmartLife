@@ -1,0 +1,25 @@
+﻿---
+ID: "ac4a511d-eccd-4dba-88ab-183c74b86d45"
+Parent: "7d732877-5b7e-4aec-bfaf-15a0e5ab1085"
+Template: "ea5951a1-22da-4d7a-9b10-5b166c56a481"
+Path: /sitecore/content/Habitat/Global/Products/FeaturedProducts
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170406T085829Z
+    - ID: "ea8c07f8-1e24-4df7-8005-e5b39ff6d0fc"
+      Hint: ProductSelector
+      Type: Multilist
+      Value: |
+        {14E4F38A-6380-4320-9C05-E46FF44EF253}
+        {6653F2C3-62B7-47E8-BB5A-149ED32F7E98}
+        {5D2A12F5-5C86-4060-92DB-5CE2A86FCD50}
+        {DEF7CC85-09B3-4AAD-92A3-43C7B8256394}
+        {76172B51-2FA4-420A-B3BD-5AF7AF194787}
+        {20064FAD-48F1-47AE-A3A0-4CDE8FD8F6B4}
+        {1347B899-079A-406D-B8FF-64CD83502FA7}

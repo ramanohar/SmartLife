@@ -1,0 +1,25 @@
+﻿---
+ID: "7bd9b6d9-e5b3-488a-9aea-b2766ea4aea2"
+Parent: "73acad2d-6752-4ab0-9b90-ac04ea203fb8"
+Template: "8ff3d369-a508-4d2f-84a5-9b6c6bf5e537"
+Path: /sitecore/content/Habitat/NewHome/Modules/Feature/Navigation/External Link
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: External Link in the Menu
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151210T034327Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="http://www.sitecore.net" anchor="" target="" />

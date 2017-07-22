@@ -1,0 +1,335 @@
+﻿---
+ID: "e1c03680-4286-4017-8a2c-ad69ac49dbf8"
+Parent: "0a165175-80f7-4d74-abfe-1e8371df0761"
+Template: "ecc4e901-9c5f-4043-b11e-cfa868d1bb73"
+Path: /sitecore/content/Habitat/NewHome/Login_1
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1100
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{E6CA18D8-321D-4105-9C38-0622E94BE400}">
+          <p:d />
+        </r>
+        <r
+          uid="{EF51B238-7CE2-4E39-AB87-D05424735160}">
+          <p:d />
+        </r>
+        <r
+          uid="{F963AA98-4957-45B5-95CD-B61C242063E1}">
+          <p:d />
+        </r>
+        <r
+          uid="{05FFB7B4-377C-4C00-9520-0ED7735CADCA}">
+          <p:d />
+        </r>
+        <r
+          uid="{630F4515-1F19-49A8-B986-D46ADD5CE024}">
+          <p:d />
+        </r>
+        <r
+          uid="{07C9FE71-A5E2-4E5F-B276-5F2B73481D44}">
+          <p:d />
+        </r>
+        <r
+          uid="{7BD25BD6-C6C4-4FBE-9828-D29A39A2FEC9}">
+          <p:d />
+        </r>
+        <r
+          uid="{FBDB4313-35B5-4C26-A586-17F48FD2DC41}">
+          <p:d />
+        </r>
+        <r
+          uid="{75551DEC-A457-43A3-B76F-91742B5DDE93}">
+          <p:d />
+        </r>
+        <r
+          uid="{462763BC-EC80-4FBA-9714-B63A87B43259}">
+          <p:d />
+        </r>
+        <r
+          uid="{3555E24E-FBE9-4D81-AAC7-50408AA45EF0}">
+          <p:d />
+        </r>
+        <r
+          uid="{79242576-4E0A-4CBF-BC2B-8B0C47FE9B64}">
+          <p:d />
+        </r>
+        <r
+          uid="{9C8A45F2-7008-42C1-8B8A-80A88825C1D8}">
+          <p:d />
+        </r>
+        <r
+          uid="{1DF746C3-2D29-43E6-9DE2-05622DED6F97}">
+          <p:d />
+        </r>
+        <r
+          uid="{3CDF4DD8-28A4-4185-8C09-A73CAA4633F7}">
+          <p:d />
+        </r>
+        <r
+          uid="{A3CA17FF-693C-46F1-87AA-B8C1833F1890}">
+          <p:d />
+        </r>
+        <r
+          uid="{66422117-69C1-4B62-9323-482F16C4F244}">
+          <p:d />
+        </r>
+        <r
+          uid="{CD38F41A-B3D7-4755-9936-80D9C2D41C69}">
+          <p:d />
+        </r>
+        <r
+          uid="{E2040FB7-4151-456D-9315-5973E4EB4D9D}">
+          <p:d />
+        </r>
+        <r
+          uid="{025588CB-DFC0-4B02-8223-0015C525AE52}">
+          <p:d />
+        </r>
+        <r
+          uid="{0E0C6DCA-1A29-4975-84D7-E99498A64A72}">
+          <p:d />
+        </r>
+        <r
+          uid="{0E0C6DCA-1A29-4975-84D7-E99498A64A72}">
+          <p:d />
+        </r>
+        <r
+          uid="{47F5A079-6F63-4219-BC45-1A221B200906}">
+          <p:d />
+        </r>
+        <r
+          uid="{84124EE2-E678-4144-8316-0D6874866604}">
+          <p:d />
+        </r>
+        <r
+          uid="{A3BAD4D4-8E21-4B30-8C4C-B04163653D62}">
+          <p:d />
+        </r>
+        <r
+          uid="{20AB9BAA-C112-4567-A701-564423E650D2}">
+          <p:d />
+        </r>
+        <r
+          uid="{3A5DE010-9996-469B-9F9F-4C230D38F5A9}"
+          p:before="*"
+          s:id="{E7AE3F87-CF66-40F2-A9F5-33ECF08BC777}"
+          s:ph="head" />
+        <r
+          uid="{EEA659C9-0AE8-452E-B48D-8D728886AF84}"
+          p:after="r[@uid='{3A5DE010-9996-469B-9F9F-4C230D38F5A9}']"
+          s:id="{BA10AC38-FDAD-47FE-B038-5F322F0678A1}"
+          s:ph="header-top" />
+        <r
+          uid="{DA403BBC-438E-4E01-BD43-676188A46E2C}"
+          p:after="r[@uid='{EEA659C9-0AE8-452E-B48D-8D728886AF84}']"
+          s:id="{29A50BE2-7FD9-4C2C-9641-35806DD2C21F}"
+          s:ph="left-header-top" />
+        <r
+          uid="{F7E1E818-980D-49A4-9080-55B8EB6EAAA6}"
+          p:after="r[@uid='{DA403BBC-438E-4E01-BD43-676188A46E2C}']"
+          s:ds="{DC450599-7C22-4D86-A901-CC8EEC8992C9}"
+          s:id="{69B9C355-004B-4268-BB1E-2F725B8752B7}"
+          s:par=""
+          s:ph="center-header-top" />
+        <r
+          uid="{6C2AA24B-9AF6-42D1-9E52-FC4CA90D0CA4}"
+          p:after="r[@uid='{F7E1E818-980D-49A4-9080-55B8EB6EAAA6}']"
+          s:id="{E26A158B-FA1E-4E9B-8622-E4458243FF46}"
+          s:ph="navbar" />
+        <r
+          uid="{D23EE272-840D-459C-94D9-3239E92BA2D4}"
+          p:after="r[@uid='{6C2AA24B-9AF6-42D1-9E52-FC4CA90D0CA4}']"
+          s:id="{A47C8288-7D4C-45FF-B75F-4AEDBF58A02D}"
+          s:ph="navbar-left" />
+        <r
+          uid="{4CCE9733-5AC9-4AA0-8DD0-3B7F27B6ECD6}"
+          p:after="r[@uid='{D23EE272-840D-459C-94D9-3239E92BA2D4}']"
+          s:ds=""
+          s:id="{53B085DB-6824-4941-9F28-9011CB151832}"
+          s:par=""
+          s:ph="navbar-center" />
+        <r
+          uid="{A05F3010-6068-4100-8DE8-05CE0947A674}"
+          p:after="r[@uid='{4CCE9733-5AC9-4AA0-8DD0-3B7F27B6ECD6}']"
+          s:id="{28BD7068-7FF6-4CE6-98E6-85CFE9967E14}"
+          s:ph="navbar-right" />
+        <r
+          uid="{FD37EBD1-366F-4D05-940F-A78FE7137F68}"
+          p:after="r[@uid='{A05F3010-6068-4100-8DE8-05CE0947A674}']"
+          s:ds=""
+          s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+          s:par="Background&amp;Background Image&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames=1"
+          s:ph="page-layout" />
+        <r
+          uid="{79AB2261-81EA-4D77-995C-E31D4142878B}"
+          p:after="r[@uid='{FD37EBD1-366F-4D05-940F-A78FE7137F68}']"
+          s:ds=""
+          s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+          s:par="Background&amp;Background Image&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames=1"
+          s:ph="/page-layout/section" />
+        <r
+          uid="{0D0A0661-6059-44F9-BF87-3CD500DF60F7}"
+          p:after="r[@uid='{79AB2261-81EA-4D77-995C-E31D4142878B}']"
+          s:ds=""
+          s:id="{45B8E1D9-D522-49E0-B9B7-04C965CC7089}"
+          s:par=""
+          s:ph="/page-layout/section/col-huge" />
+        <r
+          uid="{1F35F5FC-44FC-403E-AC8F-998EE877D78E}"
+          p:after="r[@uid='{0D0A0661-6059-44F9-BF87-3CD500DF60F7}']"
+          s:ds=""
+          s:id="{5899FE6B-2AD7-4243-B1F9-3BC664CF0A7C}"
+          s:par=""
+          s:ph="/page-layout/section/col-huge" />
+        <r
+          uid="{D5386B59-3767-41D3-A261-5433610D3021}"
+          p:after="r[@uid='{1F35F5FC-44FC-403E-AC8F-998EE877D78E}']"
+          s:ds="{2DC2B4FD-207C-47B2-84B3-9CA469BFEAB0}"
+          s:id="{2326270F-C806-4A5B-8FFA-A247CF5BBBCE}"
+          s:par=""
+          s:ph="/page-layout/section/col-huge1" />
+        <r
+          uid="{7CA4EF16-FDBB-4DD4-8ACC-72DC0030DB3C}"
+          p:after="r[@uid='{D5386B59-3767-41D3-A261-5433610D3021}']"
+          s:ds="{4E29A6F5-35BF-4416-8385-5CC1675AF116}"
+          s:id="{695CEE74-D8F4-481D-B813-237050809290}"
+          s:par=""
+          s:ph="/page-layout/section/col-huge1" />
+        <r
+          uid="{DAA5B8D2-4730-4ED3-8D01-71D7BAD3B81F}"
+          p:after="r[@uid='{7CA4EF16-FDBB-4DD4-8ACC-72DC0030DB3C}']"
+          s:ds="{03167897-2A83-4AB4-A655-5B295322F17C}"
+          s:id="{A1A679B4-F2C1-4065-8743-68BC9E68E103}"
+          s:par=""
+          s:ph="/page-layout/section/col-huge1" />
+        <r
+          uid="{4F310A71-1D54-4E30-B367-4CA436808113}"
+          p:after="r[@uid='{DAA5B8D2-4730-4ED3-8D01-71D7BAD3B81F}']"
+          s:ds="{8AD6E8D2-D099-42D2-BF9F-F2BF466352D6}"
+          s:id="{695CEE74-D8F4-481D-B813-237050809290}"
+          s:par=""
+          s:ph="/page-layout/section/col-huge1" />
+        <r
+          uid="{31E632EB-DC7C-44E1-8849-7BEE45D41308}"
+          p:after="r[@uid='{4F310A71-1D54-4E30-B367-4CA436808113}']"
+          s:ds="{6E7CC965-7B4E-4A81-8509-B53B48A4923E}"
+          s:id="{D9B8344E-DAB6-468A-9ACC-477EFD85222F}"
+          s:par=""
+          s:ph="/page-layout/section/col-huge1" />
+        <r
+          uid="{245E3C30-3F99-4F89-978A-1689964F484C}"
+          p:after="r[@uid='{31E632EB-DC7C-44E1-8849-7BEE45D41308}']"
+          s:ds=""
+          s:id="{299FD8EA-2CFD-4A69-9CA4-7EA24CD34A46}"
+          s:par=""
+          s:ph="footer" />
+        <r
+          uid="{C2A23C81-3199-466E-88B8-722560450823}"
+          p:after="r[@uid='{245E3C30-3F99-4F89-978A-1689964F484C}']"
+          s:ds=""
+          s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+          s:par="Background=%7B6A2EED97-1642-43A3-827E-427D6013FDBE%7D&amp;Background Image&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames=1"
+          s:ph="/footer/section" />
+        <r
+          uid="{BA8C9C36-A615-41F3-8B01-E1AF85DF22C5}"
+          p:after="r[@uid='{C2A23C81-3199-466E-88B8-722560450823}']"
+          s:ds=""
+          s:id="{DE648E12-A568-4919-802E-A688EBC9B9F3}"
+          s:par="Background=%7B6A2EED97-1642-43A3-827E-427D6013FDBE%7D&amp;Background Image&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames=1"
+          s:ph="/footer/section/section" />
+        <r
+          uid="{090D2E35-0ADB-4D62-8A1F-CCDE07A2760A}"
+          p:after="r[@uid='{BA8C9C36-A615-41F3-8B01-E1AF85DF22C5}']"
+          s:ds="{FB1E4810-6D89-4F1E-A47B-70478FE32DA7}"
+          s:id="{F366FBA9-EF26-4007-988A-63CB64649C46}"
+          s:par="Show Header=1"
+          s:ph="/footer/section/section/col-narrow-1" />
+        <r
+          uid="{FB602DCE-BB1C-43B9-8F95-5A99DC5CEA45}"
+          p:after="r[@uid='{090D2E35-0ADB-4D62-8A1F-CCDE07A2760A}']"
+          s:ds="{390056FB-8813-483A-B82A-DB6843768726}"
+          s:id="{F366FBA9-EF26-4007-988A-63CB64649C46}"
+          s:par="Show Header=1"
+          s:ph="/footer/section/section/col-narrow-2" />
+        <r
+          uid="{98057D5A-9537-4596-BE02-358F639BC328}"
+          p:after="r[@uid='{FB602DCE-BB1C-43B9-8F95-5A99DC5CEA45}']"
+          s:ds="{7A02D67F-9B00-47D7-8CD1-79A8B95EC4D3}"
+          s:id="{F366FBA9-EF26-4007-988A-63CB64649C46}"
+          s:par="Show Header=1"
+          s:ph="/footer/section/section/col-narrow-3" />
+        <r
+          uid="{CDDD9127-3B8C-4A41-B26C-2758CE8D9A0B}"
+          p:after="r[@uid='{98057D5A-9537-4596-BE02-358F639BC328}']"
+          s:ds="{B4D87E66-D2C5-4C06-8F9A-08AEAF38055A}"
+          s:id="{F366FBA9-EF26-4007-988A-63CB64649C46}"
+          s:par="Show Header=1"
+          s:ph="/footer/section/section/col-narrow-4" />
+        <r
+          uid="{A6875AB1-505D-4D47-805F-70BB0E8D5346}"
+          p:after="r[@uid='{CDDD9127-3B8C-4A41-B26C-2758CE8D9A0B}']"
+          s:ds=""
+          s:id="{1B92270B-EC01-4939-B579-0ADFEB758A95}"
+          s:par="Background=%7B2E6F5F32-6948-44CE-93E9-1ABAAD9C5917%7D&amp;Background Image&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames=1"
+          s:ph="postfooter" />
+        <r
+          uid="{54BE8FB6-BE81-4D7D-80C2-3567E686BC1A}"
+          p:after="r[@uid='{A6875AB1-505D-4D47-805F-70BB0E8D5346}']"
+          s:ds=""
+          s:id="{7DAE9F23-890F-4E06-99A7-CCEDB74D3D8E}"
+          s:par=""
+          s:ph="/footer/postfooter/col-wide-1" />
+        <r
+          uid="{AE7C5F13-3460-4E3F-A0CE-836DEB9EC77A}"
+          p:after="r[@uid='{54BE8FB6-BE81-4D7D-80C2-3567E686BC1A}']"
+          s:ds="{20DD980B-CD20-45F7-987B-8D3C91B30D6D}"
+          s:id="{F366FBA9-EF26-4007-988A-63CB64649C46}"
+          s:par="Show Header"
+          s:ph="/footer/postfooter/col-wide-2" />
+        <r
+          uid="{B16ECE6C-E3D7-44EC-B991-9DD9BBA43F33}"
+          p:after="r[@uid='{AE7C5F13-3460-4E3F-A0CE-836DEB9EC77A}']"
+          s:ds=""
+          s:id="{8C3A2CFC-18FB-4BF5-8584-50EA88978ED6}"
+          s:par=""
+          s:ph="right-header-top" />
+        <r
+          uid="{299E7036-8A22-47DF-A9E8-27D12F049019}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{26B33DEB-F1DB-4338-B043-AAF2F90E04A3}"
+          s:par="UseStaticPlaceholderNames&amp;Type&amp;Media&amp;Parallax"
+          s:ph="page-layout" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Login
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151105T104238Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: <p>Please enter your email address and password to login to this site</p>
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Login
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Login

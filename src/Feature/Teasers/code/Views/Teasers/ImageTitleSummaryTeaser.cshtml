@@ -1,0 +1,24 @@
+﻿@using Sitecore.Feature.Teasers
+@using Sitecore.Foundation.Alerts
+@using Sitecore.Foundation.Alerts.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Foundation.Theming.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+    if (!Model?.Item?.IsDerived(Templates.TeaserContent.ID) ?? true)
+    {
+        @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.TeaserContent.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
+        return;
+    }
+    var backgroundClass = Model.Rendering.GetBackgroundClass();
+}
+
+<div class="media @backgroundClass">
+        <div class="pull-left">
+            @Html.Sitecore().ImageField(Templates.TeaserContent.Fields.Image, Model.Item, mw: 500, cssClass: "img-responsive")
+        </div>
+        <div class="media-body">
+            <h2>@Html.Sitecore().Field(Templates.TeaserHeadline.Fields.Title.ToString(), Model.Item)</h2>
+            <p>@Html.Sitecore().Field(Templates.TeaserContent.Fields.Summary, Model.Item, new { linebreaks = "<br/>" })</p>
+        </div>
+</div>

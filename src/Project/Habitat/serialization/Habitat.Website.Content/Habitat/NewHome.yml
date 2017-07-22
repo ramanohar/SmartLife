@@ -1,0 +1,615 @@
+﻿---
+ID: "0a165175-80f7-4d74-abfe-1e8371df0761"
+Parent: "725a45e3-e307-4b95-b363-2782b059df06"
+Template: "6310c734-5c02-43fe-8ae8-9b3adcf4bb41"
+Path: /sitecore/content/Habitat/NewHome
+DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{24DFF2CF-B30A-4B75-8967-2FE3DED82271}"
+        name="Focus"
+        presets="konstantin|100||">
+        <key
+          name="Background"
+          value="9" />
+        <key
+          name="Practical"
+          value="8" />
+        <key
+          name="Process"
+          value="7" />
+        <key
+          name="Scope"
+          value="3" />
+      </profile>
+    </tracking>
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{FB88C865-3398-4F39-835F-23D24D13AC70}"
+          s:ds="{DC450599-7C22-4D86-A901-CC8EEC8992C9}" />
+        <r
+          uid="{30A4BFFC-9893-48E2-ACC6-66F6572C7D7B}"
+          s:ds=""
+          s:par="Background&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames" />
+        <r
+          uid="{D0D23970-B7F0-474F-B88A-142DA8BF9704}"
+          p:after="r[@uid='{30A4BFFC-9893-48E2-ACC6-66F6572C7D7B}']"
+          s:ds=""
+          s:id="{BEF940F0-D5EE-4C99-BD5C-E22D43BE081C}"
+          s:par=""
+          s:ph="/page-layout/page-header">
+          <rls>
+            <ruleset>
+              <rule
+                uid="{3D4A2D39-437E-4665-9797-9FB3485DB12D}"
+                s:name="FB washingmachine">
+                <conditions>
+                  <condition
+                    uid="1580490107FA4247A913CB687B9ED36E"
+                    s:id="{6C11F10F-0F89-4911-A148-E33C1ECB13D5}"
+                    s:QueryStringName="sc_camp"
+                    s:operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}"
+                    s:QueryStringValue="washingmachine" />
+                </conditions>
+                <actions>
+                  <action
+                    uid="1A439FD028BD4BDD902DD591C3F53637"
+                    s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    s:DataSource="{2D53C924-1FD9-424B-B07B-5B8EF2B760B8}" />
+                </actions>
+              </rule>
+              <rule
+                uid="{4EF68292-5EEC-440A-9157-D2F0AB65C03C}"
+                s:name="FB Refrigerator">
+                <conditions>
+                  <condition
+                    uid="BBAC87B79B7D4F20AA8EE1DD68FAAAC9"
+                    s:id="{6C11F10F-0F89-4911-A148-E33C1ECB13D5}"
+                    s:QueryStringName="sc_camp"
+                    s:operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}"
+                    s:QueryStringValue="refrigerator" />
+                </conditions>
+                <actions>
+                  <action
+                    uid="D5CC961F8AD748AE9DF647D21AE94C77"
+                    s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    s:DataSource="{7DAA0354-8EF3-490F-BBD4-05E3978E21FC}" />
+                </actions>
+              </rule>
+              <rule
+                uid="{712D596D-6982-4896-8ADD-4840FAE55D7D}"
+                s:name="Facebook ac">
+                <conditions>
+                  <condition
+                    uid="C829227DC9D847E983C5253BBE9DA22A"
+                    s:id="{6C11F10F-0F89-4911-A148-E33C1ECB13D5}"
+                    s:QueryStringName="sc_camp"
+                    s:operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}"
+                    s:QueryStringValue="ac" />
+                </conditions>
+                <actions>
+                  <action
+                    uid="E11FD50778C74BE09E56EE5E1A514426"
+                    s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    s:DataSource="{2DC2B4FD-207C-47B2-84B3-9CA469BFEAB0}" />
+                </actions>
+              </rule>
+              <rule
+                uid="{1857A9BF-1112-4D80-B71D-C0FB10C8A3D7}"
+                s:name="Google">
+                <conditions>
+                  <condition
+                    uid="67E8862FA71946E3BF55A8836753719B"
+                    s:id="{6C11F10F-0F89-4911-A148-E33C1ECB13D5}"
+                    s:QueryStringName="q"
+                    s:operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}"
+                    s:QueryStringValue="washingmachine" />
+                </conditions>
+                <actions>
+                  <action
+                    uid="7ABDA34A6183469CA0A4A857B59220C3"
+                    s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    s:DataSource="{2DC2B4FD-207C-47B2-84B3-9CA469BFEAB0}" />
+                </actions>
+              </rule>
+              <rule
+                uid="{ECD239DC-9876-4C2C-92E7-2614957C68AC}"
+                s:name="Specify name...">
+                <conditions>
+                  <condition
+                    uid="E23F18F3105E46DC904BDC7D6269AB93"
+                    s:id="{6C11F10F-0F89-4911-A148-E33C1ECB13D5}"
+                    s:QueryStringName="q"
+                    s:operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}"
+                    s:QueryStringValue="refrigerator" />
+                </conditions>
+                <actions>
+                  <action
+                    uid="960304B6031B4BCE88C9DE4D29C20045"
+                    s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    s:DataSource="{2D53C924-1FD9-424B-B07B-5B8EF2B760B8}" />
+                </actions>
+              </rule>
+              <rule
+                uid="{AE2DF753-CB89-4A6D-B61D-1868E8BDDE45}"
+                s:name="Google AC">
+                <conditions>
+                  <condition
+                    uid="4F516BD0A3344C6DAB8A0F90C0F11470"
+                    s:id="{6C11F10F-0F89-4911-A148-E33C1ECB13D5}"
+                    s:QueryStringName="q"
+                    s:operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}"
+                    s:QueryStringValue="ac" />
+                </conditions>
+                <actions>
+                  <action
+                    uid="7AA4884D7B2C43B392A1AB8CCA55BF5E"
+                    s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    s:DataSource="{7DAA0354-8EF3-490F-BBD4-05E3978E21FC}" />
+                </actions>
+              </rule>
+              <rule
+                uid="{5994864B-EE90-498D-9091-07B06EE0E342}"
+                s:name="Washing Machine1">
+                <conditions>
+                  <condition
+                    uid="A1E4C78C43104DA4955842E60AE58F69"
+                    s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                    s:ProfileName="Smartlifeappliances-Products-Profile"
+                    s:PatternName="AvantcoCFD-2RR-G-PatternCard" />
+                </conditions>
+                <actions>
+                  <action
+                    uid="892D8B9F873442EDABA99977703BFDBC"
+                    s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    s:DataSource="{253D7F70-7AEE-4650-973B-4EF1F3EF4416}" />
+                </actions>
+              </rule>
+              <rule
+                uid="{5B8473B9-92A4-42CB-86F3-E1D104E892C3}"
+                s:name="Specify name...">
+                <conditions>
+                  <condition
+                    uid="BBC03472BF4C42B09FEFD8D0C40DAEDF"
+                    s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                    s:ProfileName="Smartlifeappliances-Products-Profile"
+                    s:PatternName="BeverageAirMarketMaxMMRF-PatternCard" />
+                </conditions>
+                <actions>
+                  <action
+                    uid="687C664A318B4E5FAF6094DD578E7E9B"
+                    s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    s:DataSource="{2EC06DEC-2E9F-4DDC-AC41-E3708A421B7A}" />
+                </actions>
+              </rule>
+              <rule
+                uid="{BA1FD1D7-E51F-48A4-AACE-AAD1AC0879C5}"
+                s:name="AC2">
+                <conditions>
+                  <condition
+                    uid="7D360F3690744408BC19BB4EE0F1EA63"
+                    s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                    s:ProfileName="Smartlifeappliances-Products-Profile"
+                    s:PatternName="Frigidaire-PatternCard" />
+                </conditions>
+                <actions>
+                  <action
+                    uid="42639BE99210480BA05265996E72767A"
+                    s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    s:DataSource="{D3B482B4-AAD4-48DA-8D2C-65BE8788A5EB}" />
+                </actions>
+              </rule>
+              <rule
+                uid="{15B2A790-9A32-498B-9361-20250EA91410}"
+                s:name="Refrigerator1">
+                <conditions>
+                  <condition
+                    uid="06911EA790184C3EAA58DDCBAD8CEC99"
+                    s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                    s:ProfileName="Smartlifeappliances-Products-Profile"
+                    s:PatternName="GEZoneline-PatternCard" />
+                </conditions>
+                <actions>
+                  <action
+                    uid="0BF869BF34E9408A8FFEF0B19735CB34"
+                    s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    s:DataSource="{40B33040-AABB-438E-B964-AB30214A0796}" />
+                </actions>
+              </rule>
+              <rule
+                uid="{C80CFA9F-11CF-4584-8A17-34350400974E}"
+                s:name="AC1">
+                <conditions>
+                  <condition
+                    uid="F03CD4B0C0154D299351848D2EE4439E"
+                    s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                    s:ProfileName="Smartlifeappliances-Products-Profile"
+                    s:PatternName="Maytag27WhiteEco-PatternCard" />
+                </conditions>
+                <actions>
+                  <action
+                    uid="1E2E63DC1C664892AE95342522D10DBC"
+                    s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    s:DataSource="{DE6BA26F-92C2-431A-A8CE-53A87F8F769C}" />
+                </actions>
+              </rule>
+              <rule
+                uid="{F121F5CF-BF97-499C-BA91-9A5DBE8C901E}"
+                s:name="Refrigerator2">
+                <conditions>
+                  <condition
+                    uid="DF8EE2EE5DEC44329A22B64E827F7A3F"
+                    s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                    s:ProfileName="Smartlifeappliances-Products-Profile"
+                    s:PatternName="Samsung48Cu-PatternCard" />
+                </conditions>
+                <actions>
+                  <action
+                    uid="5F2CAE140AD4441DBC72D7AFE4B8297E"
+                    s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    s:DataSource="{C3725F30-F3A9-479E-96E4-F49D285158EA}" />
+                </actions>
+              </rule>
+              <rule
+                uid="{00000000-0000-0000-0000-000000000000}"
+                s:name="Default">
+                <conditions>
+                  <condition
+                    uid="80F8AFC5542F415993F30F53399D72E2"
+                    s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                </conditions>
+                <actions>
+                  <action
+                    uid="42CAD31E294645B8A37470F7FBB825E2"
+                    s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    s:DataSource="{6B3E2125-9402-4ABE-BE65-1DC375B2111E}" />
+                </actions>
+              </rule>
+            </ruleset>
+          </rls>
+        </r>
+        <r
+          uid="{CC30BE39-6B4C-4D84-8B15-3324E4AEBA63}"
+          p:after="r[@uid='{D0D23970-B7F0-474F-B88A-142DA8BF9704}']"
+          s:ds=""
+          s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+          s:par="Background&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
+          s:ph="page-layout" />
+        <r
+          uid="{1B4A5C46-BF74-480E-8CA7-FA145414819B}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+          s:par="Background&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
+          s:ph="/page-layout/section" />
+      </d>
+    </r>
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Hjem
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160105T101156Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Fleksibilitet, Enkelhed,  Udvidelsesmuligheder
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{5196D76E-C697-470E-9186-CC758FAB7C09}"
+              p:before="*"
+              s:ds="{AFDA672C-7544-4E90-9929-FD93D7D3C558}"
+              s:id="{695CEE74-D8F4-481D-B813-237050809290}"
+              s:par=""
+              s:ph="/page-layout/section_ad34ea9a-d374-4585-9541-6440f2ce1fc3/col-huge_3cd032c8-9da6-4ed2-bb2e-5efa8d21fcfa" />
+            <r
+              uid="{15B28211-67A8-4BB7-B6F4-858E793136F1}"
+              p:after="r[@uid='{5196D76E-C697-470E-9186-CC758FAB7C09}']"
+              s:ds="{AC4A511D-ECCD-4DBA-88AB-183C74B86D45}"
+              s:id="{F146EF03-F24E-4D31-B344-91EC61CA8AB4}"
+              s:par=""
+              s:ph="/page-layout/section_ad34ea9a-d374-4585-9541-6440f2ce1fc3/col-huge_3cd032c8-9da6-4ed2-bb2e-5efa8d21fcfa" />
+            <r
+              uid="{3CD032C8-9DA6-4ED2-BB2E-5EFA8D21FCFA}"
+              p:after="r[@uid='{15B28211-67A8-4BB7-B6F4-858E793136F1}']"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section_ad34ea9a-d374-4585-9541-6440f2ce1fc3" />
+            <r
+              uid="{867E811F-35C4-4EC4-9514-471562433630}"
+              p:after="r[@uid='{3CD032C8-9DA6-4ED2-BB2E-5EFA8D21FCFA}']"
+              s:ds="{F79DB404-F073-4B41-B4EB-0F4D46D775F3}"
+              s:id="{F940BB36-C78C-46B8-8778-BC49348AA58A}"
+              s:par="Background"
+              s:ph="/page-layout/section_1bf378eb-c8cd-43d7-857a-b0f80d56538f/col-wide-1_a98c5254-adff-43ac-8949-c15212ff46eb" />
+            <r
+              uid="{A98C5254-ADFF-43AC-8949-C15212FF46EB}"
+              p:after="r[@uid='{867E811F-35C4-4EC4-9514-471562433630}']"
+              s:ds=""
+              s:id="{4ACD4C20-28D1-46F7-8FBA-A35778937BD1}"
+              s:par="Background&amp;Background Image&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
+              s:ph="/page-layout/section_1bf378eb-c8cd-43d7-857a-b0f80d56538f" />
+            <r
+              uid="{EEB66244-CDB4-4C62-9982-FB7ACE7FDA9C}"
+              p:after="r[@uid='{A98C5254-ADFF-43AC-8949-C15212FF46EB}']"
+              s:ds="{9014B242-2220-4CE4-87EA-CF51C8758F21}"
+              s:id="{695CEE74-D8F4-481D-B813-237050809290}"
+              s:par=""
+              s:ph="/page-layout/section_b9b0251e-e0a6-4ac8-bd59-a8f7f75657b7/col-huge_5e2d85fa-813b-4707-950e-c1a55158d12e" />
+            <r
+              uid="{5E2D85FA-813B-4707-950E-C1A55158D12E}"
+              p:after="r[@uid='{EEB66244-CDB4-4C62-9982-FB7ACE7FDA9C}']"
+              s:ds=""
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:par="Background&amp;Background Image&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
+              s:ph="/page-layout/section_b9b0251e-e0a6-4ac8-bd59-a8f7f75657b7" />
+            <r
+              uid="{C5E26D98-E528-45A8-8C3F-A1B088B08581}"
+              p:after="r[@uid='{5E2D85FA-813B-4707-950E-C1A55158D12E}']"
+              s:ds="{73C59589-2BC6-4200-A631-7BAC9D33AE64}"
+              s:id="{695CEE74-D8F4-481D-B813-237050809290}"
+              s:par=""
+              s:ph="/page-layout/section_c9ea8a2e-2f65-465f-88ce-be56dcea50ad/col-huge_833ed94d-4dfc-430b-8fb3-47c04784dde4" />
+            <r
+              uid="{833ED94D-4DFC-430B-8FB3-47C04784DDE4}"
+              p:after="r[@uid='{C5E26D98-E528-45A8-8C3F-A1B088B08581}']"
+              s:ds=""
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:par="Background&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
+              s:ph="/page-layout/section_c9ea8a2e-2f65-465f-88ce-be56dcea50ad" />
+            <r
+              uid="{162A0553-C13E-490A-870C-6EC9F7EF2060}"
+              p:after="r[@uid='{833ED94D-4DFC-430B-8FB3-47C04784DDE4}']"
+              s:ds="{DD0CC0B2-D325-4DD6-9043-04E4C04F47F6}"
+              s:id="{695CEE74-D8F4-481D-B813-237050809290}"
+              s:par=""
+              s:ph="/page-layout/section_cc30be39-6b4c-4d84-8b15-3324e4aeba63/col-huge_d28e15c4-9911-46ac-a300-9e3151119b58">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{DD2967DA-4640-415F-A8A6-9CBCFEFE93C7}"
+                    s:name="Specify name...">
+                    <conditions>
+                      <or
+                        uid="1702DD6759B64F60B16F9292E55FDABD">
+                        <or
+                          uid="7F79D2EF1F05473B9ABF77F798677ED4">
+                          <condition
+                            uid="7C408685150F4011A5E3ECDFC279CDE7"
+                            s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                            s:ProfileName="Smartlifeappliances-Category-Profile"
+                            s:PatternName="AC-PatternCard" />
+                          <condition
+                            uid="1CDFBB90EF5D4882892938554EF1328F"
+                            s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                            s:ProfileName="Smartlifeappliances-Category-Profile"
+                            s:PatternName="Referigerator-PatternCard" />
+                        </or>
+                        <condition
+                          uid="A6583377EBE64E98881525ADB397E3F5"
+                          s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                          s:ProfileName="Smartlifeappliances-Category-Profile"
+                          s:PatternName="WashingMachine-PatternCard" />
+                      </or>
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="7D363E08C24B4DF89AF48ADF6EBF2BC6"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{DD0CC0B2-D325-4DD6-9043-04E4C04F47F6}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="A2BFD97B49CC4104A832DF155DB43419"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="416E4FB5958E4703AF36F69E9029BA85"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{D28E15C4-9911-46AC-A300-9E3151119B58}"
+              p:after="r[@uid='{162A0553-C13E-490A-870C-6EC9F7EF2060}']"
+              s:ds=""
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:par="Background&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
+              s:ph="/page-layout/section_cc30be39-6b4c-4d84-8b15-3324e4aeba63" />
+            <r
+              uid="{30A4BFFC-9893-48E2-ACC6-66F6572C7D7B}"
+              s:par="Background&amp;Background Image&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames" />
+            <r
+              uid="{AD34EA9A-D374-4585-9541-6440F2CE1FC3}"
+              p:after="r[@uid='{30A4BFFC-9893-48E2-ACC6-66F6572C7D7B}']"
+              s:ds=""
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:par="Background=%7BF23AFD42-6B3B-4707-90B7-4612E1B6412D%7D&amp;Background Image&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
+              s:ph="page-layout" />
+            <r
+              uid="{CC30BE39-6B4C-4D84-8B15-3324E4AEBA63}"
+              s:par="Background=%7BF23AFD42-6B3B-4707-90B7-4612E1B6412D%7D&amp;Background Image&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames" />
+            <r
+              uid="{C9EA8A2E-2F65-465F-88CE-BE56DCEA50AD}"
+              p:after="r[@uid='{CC30BE39-6B4C-4D84-8B15-3324E4AEBA63}']"
+              s:ds=""
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:par="Background=%7B7A48436C-2F6F-4FAD-A5FE-6307300808BC%7D&amp;Background Image=%3Cimage%20mediaid%3D%22%7B4A0CEE8E-1525-4595-9AD6-9514932DC3A7%7D%22%20%2F%3E&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
+              s:ph="page-layout" />
+            <r
+              uid="{B9B0251E-E0A6-4AC8-BD59-A8F7F75657B7}"
+              p:after="r[@uid='{C9EA8A2E-2F65-465F-88CE-BE56DCEA50AD}']"
+              s:ds=""
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:par="Background=%7BBAC6B529-7D87-4996-AAA7-996BB558659A%7D&amp;Background Image=%3Cimage%20mediaid%3D%22%7B14A44DB6-D470-4871-B662-8DD75E40C8F4%7D%22%20%2F%3E&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
+              s:ph="page-layout" />
+            <r
+              uid="{1BF378EB-C8CD-43D7-857A-B0F80D56538F}"
+              p:after="r[@uid='{B9B0251E-E0A6-4AC8-BD59-A8F7F75657B7}']"
+              s:ds=""
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:par="Background=%7B01D928D4-E41C-4B23-9363-5EC8998D0C23%7D&amp;Background Image&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
+              s:ph="page-layout" />
+            <r
+              uid="{D0D23970-B7F0-474F-B88A-142DA8BF9704}"
+              p:after="r[@uid='{1BF378EB-C8CD-43D7-857A-B0F80D56538F}']" />
+            <r
+              uid="{1B4A5C46-BF74-480E-8CA7-FA145414819B}"
+              p:after="r[@uid='{D0D23970-B7F0-474F-B88A-142DA8BF9704}']"
+              s:ph="/page-layout/section-1" />
+            <r
+              uid="{B568A359-B399-4B2D-A5A5-4E8A71D32FCA}"
+              p:after="r[@uid='{1B4A5C46-BF74-480E-8CA7-FA145414819B}']"
+              s:ds="{73C59589-2BC6-4200-A631-7BAC9D33AE64}"
+              s:id="{0503D9D1-C05C-4954-9A12-ED506B799250}"
+              s:par=""
+              s:ph="/page-layout/section_c9ea8a2e-2f65-465f-88ce-be56dcea50ad/col-huge_833ed94d-4dfc-430b-8fb3-47c04784dde4" />
+            <r
+              uid="{B751B3B2-7A22-4611-ACB7-34E19C6DA272}"
+              p:after="r[@uid='{B568A359-B399-4B2D-A5A5-4E8A71D32FCA}']"
+              s:ds=""
+              s:id="{84924ABF-F983-4AF5-9002-EA0237A53DA9}"
+              s:par=""
+              s:ph="/page-layout/section_cc30be39-6b4c-4d84-8b15-3324e4aeba63/col-huge_d28e15c4-9911-46ac-a300-9e3151119b58">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{0E3B7CC0-6BBC-48D0-8092-423AF3996E84}"
+                    s:name="Referigerator">
+                    <conditions>
+                      <condition
+                        uid="807EB6E050E347C2A88100FDCD2BBEE7"
+                        s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                        s:ProfileName="Smartlifeappliances-Category-Profile"
+                        s:PatternName="Referigerator-PatternCard" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="84118F1C5FA443F2AD58C81245FE81A8"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{6383DEFC-59F2-4F91-9EE5-F466481B1194}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{725A73E4-6FD2-4656-B010-E1A0FD57A1A1}"
+                    s:name="Washing Machine">
+                    <conditions>
+                      <condition
+                        uid="9476551D1B464C9287C812487CC97F09"
+                        s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                        s:ProfileName="Smartlifeappliances-Category-Profile"
+                        s:PatternName="WashingMachine-PatternCard" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="8A2457974D0748C28EE61065E52EE597"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{0275A11C-F8B8-4AC0-A76C-CA64CE58A5A8}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{EEDA02D2-4263-4313-B160-694C4D0DA83C}"
+                    s:name="AC">
+                    <conditions>
+                      <condition
+                        uid="1D79E954ADB04F78BBBCD9DD1A13706E"
+                        s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                        s:ProfileName="Smartlifeappliances-Category-Profile"
+                        s:PatternName="AC-PatternCard" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="EEB8F89B91C149578F82AF4E143246E6"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{7947D371-57B7-4A3D-9FB1-6E537EA79A0D}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="E01D1FD7327A44908DC477F0DCCF7A11"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="E4A00168A76C461F962C93D75634B27B"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{B685306A-5BE8-4760-8919-939560BB739F}"
+              p:after="r[@uid='{B751B3B2-7A22-4611-ACB7-34E19C6DA272}']"
+              s:ds="{1B3AA94B-7180-4030-90DE-2469C22A8D9C}"
+              s:id="{D0CAC0A2-DB40-424A-88E0-EBC5D3F6DBF1}"
+              s:par="Background"
+              s:ph="/page-layout/section_1bf378eb-c8cd-43d7-857a-b0f80d56538f/col-narrow-1_a98c5254-adff-43ac-8949-c15212ff46eb" />
+            <r
+              uid="{069BC931-79D1-4112-8E16-B30A5CB96514}"
+              p:after="*[1=2]"
+              s:ds="{9014B242-2220-4CE4-87EA-CF51C8758F21}"
+              s:id="{571403A1-2865-4B26-ADD8-0900F9FFC420}"
+              s:par=""
+              s:ph="/page-layout/section_b9b0251e-e0a6-4ac8-bd59-a8f7f75657b7/col-huge_5e2d85fa-813b-4707-950e-c1a55158d12e" />
+          </d>
+        </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150823T123346Z
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {425DF582-C8D5-4EBA-B23E-FA1A069435DD}
+        {153640E2-FD0D-42D3-8480-F9615EE78A9A}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Flexibility, Simplicity, Extensibility

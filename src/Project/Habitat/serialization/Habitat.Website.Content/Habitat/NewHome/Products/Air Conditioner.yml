@@ -1,0 +1,38 @@
+﻿---
+ID: "7947d371-57b7-4a3d-9fb1-6e537ea79a0d"
+Parent: "752b9a88-691d-4bf2-98a5-4a10b2e388eb"
+Template: "11dd8ffb-ce23-4cd5-9b1d-c491baca10f5"
+Path: /sitecore/content/Habitat/NewHome/Products/Air Conditioner
+DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{897E0D6D-31D0-4DA2-8684-27ACD96A7330}"
+        name="Smartlifeappliances-Category-Profile"
+        presets="ac-profilecard-persona|100||">
+        <key
+          name="WashingMachine"
+          value="0" />
+        <key
+          name="AC"
+          value="1" />
+        <key
+          name="Referigerator"
+          value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170407T124252Z
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Air Conditioner

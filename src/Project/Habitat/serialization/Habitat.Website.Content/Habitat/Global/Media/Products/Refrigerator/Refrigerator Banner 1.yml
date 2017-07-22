@@ -1,0 +1,28 @@
+﻿---
+ID: "630a00f0-d83d-49d9-944e-e2283dd67361"
+Parent: "916cd71c-0dec-4971-a977-c47c422d0bb0"
+Template: "f0369e1a-9030-4a05-a09c-ef09b664ed27"
+Path: /sitecore/content/Habitat/Global/Media/Products/Refrigerator/Refrigerator Banner 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170408T072417Z
+    - ID: "4ff62b0a-d73b-4436-bea2-023154f2ffc4"
+      Hint: MediaThumbnail
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9f51dead-ad6e-41c2-9759-7be17eb474a4"
+      Hint: MediaImage
+      Value: 
+    - ID: "b8839d85-7e29-426d-86ec-1a6c38804a0b"
+      Hint: BackgroundMediaImage
+      Value: |
+        <image mediaid="{257C030A-6948-4871-AC92-AF2946A28D7D}" />

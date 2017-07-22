@@ -1,0 +1,265 @@
+﻿---
+ID: "6653f2c3-62b7-47e8-bb5a-149ed32f7e98"
+Parent: "6383defc-59f2-4f91-9ee5-f466481b1194"
+Template: "c5b8584b-a263-4169-aea1-2ff6a1cff371"
+Path: "/sitecore/content/Habitat/NewHome/Products/Refrigerator/Refrigerator-TurboAir-TGM-5R"
+DB: master
+SharedFields:
+- ID: "0be11d55-96e6-408a-be0e-83836db67232"
+  Hint: "Product-Image"
+  Value: |
+    <image mediaid="{458C7480-0A7A-49F4-9450-283713614F7A}" />
+- ID: "4b517cb2-ab6e-4512-bec3-943778e02bb2"
+  Hint: "Product-Large-Image"
+  Value: |
+    <image mediaid="{458C7480-0A7A-49F4-9450-283713614F7A}" />
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <campaign
+        title="Campaign A"
+        id="{32CC857F-3F44-46ED-841C-AC0A284C74DC}" />
+      <event
+        id="{3AB13FA4-3771-480F-8358-EA495271F935}"
+        name="Goal A" />
+      <profile
+        id="{897E0D6D-31D0-4DA2-8684-27ACD96A7330}"
+        name="Smartlifeappliances-Category-Profile"
+        presets="referigerator-profilecard-persona|100||">
+        <key
+          name="WashingMachine"
+          value="0" />
+        <key
+          name="AC"
+          value="0" />
+        <key
+          name="Referigerator"
+          value="1" />
+      </profile>
+    </tracking>
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{96E1EB15-874D-4F31-A57A-5425F881520B}"
+          s:ds="{6653F2C3-62B7-47E8-BB5A-149ED32F7E98}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d4a62ee-bf47-4fbe-b35a-55631cced460"
+      Hint: Features
+      Value: |
+        <span style="background-color: #ffffff; color: #3b3d3b;">- Energy conserving fan control conserves energy and increases compressor life</span><br style="color: #3b3d3b; background-color: #ffffff;" />
+        <br style="color: #3b3d3b; background-color: #ffffff;" />
+        <span style="background-color: #ffffff; color: #3b3d3b;">- Hot gas condensate system resists corrosion and prevents overflow of condensate water</span><br style="color: #3b3d3b; background-color: #ffffff;" />
+        <br style="color: #3b3d3b; background-color: #ffffff;" />
+        <span style="background-color: #ffffff; color: #3b3d3b;">- Double pane heated glass door has a patented layer of thermal insulating film to reflect heat</span><br style="color: #3b3d3b; background-color: #ffffff;" />
+        <br style="color: #3b3d3b; background-color: #ffffff;" />
+        <span style="background-color: #ffffff; color: #3b3d3b;">- Includes three heavy duty, adjustable polyethylene coated wire shelves</span><br style="color: #3b3d3b; background-color: #ffffff;" />
+        <br style="color: #3b3d3b; background-color: #ffffff;" />
+        <span style="background-color: #ffffff; color: #3b3d3b;">- Oversized, balanced refrigeration system with 1/10 hp compressor, R-134a refrigerant and high density polyurethane insulation</span><br style="color: #3b3d3b; background-color: #ffffff;" />
+        <br style="color: #3b3d3b; background-color: #ffffff;" />
+        <span style="background-color: #ffffff; color: #3b3d3b;">- Ergonomically designed swing door with self-closing and stay-open features; magnetic door gasket</span><br style="color: #3b3d3b; background-color: #ffffff;" />
+        <br style="color: #3b3d3b; background-color: #ffffff;" />
+        <span style="background-color: #ffffff; color: #3b3d3b;">- Easy-to-clean painted galvanized steel interior; white cabinet exterior</span><br style="color: #3b3d3b; background-color: #ffffff;" />
+        <br style="color: #3b3d3b; background-color: #ffffff;" />
+        <span style="background-color: #ffffff; color: #3b3d3b;">- Holds 33 degrees Fahrenheit to 38 degrees Fahrenheit&nbsp;</span>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: "Turbo Air TGM-5R"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T090724Z
+    - ID: "398aaabe-2e1a-4e7c-a4a6-0f7afc544d93"
+      Hint: Description
+      Value: |
+        <p style="color: #3b3d3b; background-color: #ffffff; margin-bottom: 16px;">Equipped with double pane glass doors, this white Turbo Air TGM-5R single glass door countertop merchandising refrigerator showcases all your products! This model is easy to clean, and its three adjustable heavy duty polyethylene coated wire shelves accommodate your various storage needs.&nbsp;<br />
+        <strong><span style="text-decoration: underline;"></span></strong></p>
+        <p style="color: #3b3d3b; background-color: #ffffff; margin-bottom: 16px;"><strong><span style="text-decoration: underline;">Overall Dimensions:</span></strong><br />
+        Width: 18 7/8"<br />
+        Depth: 22 3/4"<br />
+        Height: 34 1/8"<br />
+        <br />
+        <strong><span style="text-decoration: underline;">Interior Dimensions:</span></strong><br />
+        Width: 16 1/4"<br />
+        Depth: 17"<br />
+        Height: 29 1/4"<br />
+        Capacity: 5 cu. ft.</p>
+        <p class="prodDetailText_commonCarrier" style="color: #3b3d3b; background-color: #ffffff; margin-bottom: 16px;"><strong>This Item Ships via Common Carrier.</strong>&nbsp;For more information and tips to help your delivery go smoothly, click&nbsp;<a href="http://www.webstaurantstore.com/liftgate.html" target="_blank" style="color: #298200; text-decoration: none;">here</a>.</p>
+        <p class="prodDetailText_outOfStockDetails" data-itemnumber="902TGM5R" style="color: #3b3d3b; background-color: #ffffff; margin-bottom: 16px;">Because this item is not stocked in our warehouse, processing, transit times and stock availability will vary. If you need your items by a certain date, please contact us prior to placing your order. Expedited shipping availability may vary. We cannot guarantee that this item can be cancelled off of the order or returned once it is placed.&nbsp;</p>
+    - ID: "40d24aa7-4aaf-48c1-86bb-b0f00c3dc525"
+      Hint: Discounted Price
+      Value: $700.00
+    - ID: "527bcbf8-a38c-4393-8d9d-88189d0c84eb"
+      Hint: Product Sub Title
+      Value: 
+    - ID: "71d65caf-388f-4a54-b386-5c0cafc6cde1"
+      Hint: Shipping
+      Value: Free Shipping
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{14D1A20F-E0FE-4D7A-8731-3181F7D3D847}"></image>
+    - ID: "9d615e6c-6493-4a5a-9f15-27adf03ea198"
+      Hint: Price
+      Value: $751.21
+    - ID: "a7a9e7db-2d07-4600-ba59-19b75984d982"
+      Hint: Specification
+      Value: |
+        <table cellpadding="0" cellspacing="0" class="table table-stylized table-bordered table-striped" style="color: #3b3d3b; background-color: #ffffff; width: 319px; margin-bottom: 0px; border-spacing: 0px; border-right: none; border-left: 0px; border-bottom-color: #dadbd9; border-top-color: #aeb0ad;">
+            <thead class="toolbar" style="opacity: 1; height: auto; padding-right: 6px; border-width: 1px; border-style: solid; border-color: #a9aba8 #a9aba8 #949793;">
+                <tr>
+                    <th colspan="2" style="padding: 8px 8px 5px; border-bottom-color: #a1a4a0; border-left-color: #aeb0ad; border-right-color: rgba(59, 61, 59, 0.247059);">SPECS</th>
+                </tr>
+            </thead>
+            <tbody id="tbSpecSheetRows">
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-top: none; border-left-color: #dadbd9; text-align: left;">Width</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-top: none; border-left-color: #dadbd9; border-right-color: #dadbd9; text-align: left;">18 7/8 Inches</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Depth</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">22 3/4 Inches</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Height</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">34 1/8 Inches</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Interior Width</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">16 1/4 Inches</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Interior Depth</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">17 Inches</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Interior Height</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">29 1/4 Inches</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Amps</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">2.2 Amps</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Hertz</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">60</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Phase</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">1</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Voltage</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">115 Volts</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Access Type</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Doors</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Capacity</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">5 cu. ft.</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Color</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">White</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Compressor Location</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Bottom Mounted</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Door Style</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Swing</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Door Type</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Glass</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Energy Star Qualified</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Yes</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Hinge Location</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Right</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Horsepower</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">1/10 HP</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Installation Type</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Countertop</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">NSF Listed</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Yes</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Number of Doors</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">1</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Number of Shelves</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">3</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Pass-Through</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">No</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Temperature Range</td>
+                    <td style="background-color: #ffffff; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">33 - 38 Degrees F</td>
+                </tr>
+                <tr class="trSpecSheetRow" item-number="902TGM5R">
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Type</td>
+                    <td style="background-color: #f6f7f5; padding: 8px 8px 5px; border-left-color: #dadbd9; border-right-color: #dadbd9; border-top-color: #dadbd9; text-align: left;">Countertop Refrigerators</td>
+                </tr>
+            </tbody>
+        </table>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "White Turbo Air TGM-5R single glass door countertop merchandising refrigerator showcases all your products!&nbsp;"
+    - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
+      Hint: MetaDescription
+      Value: "Turbo Air TGM-5R White Countertop Display Refrigerator with Swing Door- 5 cu. ft."
+    - ID: "c236fb11-ab2f-42a7-92a7-09a9258e2637"
+      Hint: Product Title
+      Value: "Turbo Air TGM-5R White Countertop Display Refrigerator with Swing Door- 5 cu. ft."
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "Turbo Air TGM-5R Countertop Display with Swing Door"
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: "Turbo Air TGM-5R White Countertop Display Refrigerator with Swing Door- 5 cu. ft."
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: 
+    - ID: "fdc46723-8fd1-44c0-9938-c7bc00a81768"
+      Hint: Reviews
+      Value: |
+        <ul class="rating" itemprop="reviewRating" itemtype="http://Schema.org/Rating" style="color: #f3b800; height: 17px; margin-right: 0px; margin-left: 0px; padding: 0px;">&nbsp;
+            <li class="icon-star" style="width: auto;"></li>
+            &nbsp;
+            <li class="icon-star" style="width: auto;"></li>
+            &nbsp;
+            <li class="icon-star" style="width: auto;"></li>
+            &nbsp;
+            <li class="icon-star" style="width: auto;"></li>
+        </ul>
+        <div class="clears" style="color: #3b3d3b;">&nbsp;</div>
+        <p itemprop="reviewBody" style="color: #3b3d3b; margin-bottom: 0px;">This counter top refrigerator was a great choice. There is a thermometer inside the fridge, and the design is very simple. Also there are more than enough shelf dividers provided so I can adjust the length of each shelf unit however I want to.</p>
+        <p class="header-4" style="color: #3b3d3b; margin-top: 10px;"><span itemprop="author">Hana W.</span>&nbsp;<span class="small" style="margin-left: 10px;">Posted on&nbsp;<span itemprop="datePublished" style="margin-left: 10px;">11/13/2015</span></span></p>

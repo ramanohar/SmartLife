@@ -1,0 +1,118 @@
+﻿---
+ID: "0caaeb3c-468f-4d49-b83b-435e74ae0665"
+Parent: "7947d371-57b7-4a3d-9fb1-6e537ea79a0d"
+Template: "c5b8584b-a263-4169-aea1-2ff6a1cff371"
+Path: "/sitecore/content/Habitat/NewHome/Products/Air Conditioner/Wall-Sleeve-Air-Conditioner-Friedrich-14-500-BTU-230V-WE15D33A"
+DB: master
+SharedFields:
+- ID: "0be11d55-96e6-408a-be0e-83836db67232"
+  Hint: "Product-Image"
+  Value: |
+    <image mediaid="{F0F49C44-ABCC-414A-8953-5C46B4F65E23}" />
+- ID: "4b517cb2-ab6e-4512-bec3-943778e02bb2"
+  Hint: "Product-Large-Image"
+  Value: |
+    <image mediaid="{F0F49C44-ABCC-414A-8953-5C46B4F65E23}" />
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{897E0D6D-31D0-4DA2-8684-27ACD96A7330}"
+        name="Smartlifeappliances-Category-Profile"
+        presets="ac-profilecard-persona|100||">
+        <key
+          name="WashingMachine"
+          value="0" />
+        <key
+          name="AC"
+          value="1" />
+        <key
+          name="Referigerator"
+          value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d4a62ee-bf47-4fbe-b35a-55631cced460"
+      Hint: Features
+      Value: |
+        <p><strong>Comfort &amp; Durability</strong></p>
+        <ul>
+          <li>New design makes controls more accessible </li>
+          <li>Remote control </li>
+          <li>24-hour timer </li>
+          <li>Smart Fan auto-adjusts fan speed to maintain desired temperature</li>
+          <li> Check filter reminder</li>
+          <li> 3-speed fan </li>
+          <li>Auto-restart </li>
+          <li>Electronic defrost control</li>
+          <li> Individually adjustable air louvers </li>
+          <li>Washable, antimicrobial filter </li>
+          <li>Rotary Compressor provides quiet, dependable performance </li>
+          <li>Premium aluminum exterior grille </li>
+          <li>Dense blower insulation blocks outdoor noise </li>
+          <li>Rifled copper tubing </li>
+          <li>Impact resistant front cover </li>
+          <li>High tech fins with sine wave lanced louvers increase energy efficiency by increasing surface area for heat exchange</li>
+        </ul>
+        <p><strong>Energy Savings </strong></p><ul>
+          <li>MoneySaver® setting cycles the fan with the compressor </li>
+          <li>R-410A refrigerant</li>
+        </ul>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: "Friedrich-14-500-BTU-9.4-EER-230V-Wall-Sleeve-Air-Conditioner-WE15D33A"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T095715Z
+    - ID: "398aaabe-2e1a-4e7c-a4a6-0f7afc544d93"
+      Hint: Description
+      Value: |
+        Whether you're replacing an existing air conditioner or working on a project that requires a more permanent installation, WallMaster is a perfect fit for existing 27" sleeves. Once installed, there is no discernible gap between the unit and the sleeve, for a clean, finished appearance and minimal intrusion of outdoor air. Built with the best commercial-grade materials and components, WallMaster is durable yet quiet. Its solid-side sleeve assures maximum performance in thicker wall applications and gives you multiple installation options. Plus, the Baffle Adapter Kit expands the depth of sleeves that can accommodate WallMaster. Choose from cooling-only, cooling with electric heat or a heat pump, including ENERGY STAR&reg; qualified models. All WallMasters come with a wireless remote plus convenient top-mount controls, a 24-hour programmable timer, an energy-efficient MoneySaver&reg; setting and many other premium features.
+    - ID: "40d24aa7-4aaf-48c1-86bb-b0f00c3dc525"
+      Hint: Discounted Price
+      Value: $1000.00
+    - ID: "71d65caf-388f-4a54-b386-5c0cafc6cde1"
+      Hint: Shipping
+      Value: Free Shipping
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{887ED17D-9B4C-4268-9221-9EDA3A15BC04}" />
+    - ID: "9d615e6c-6493-4a5a-9f15-27adf03ea198"
+      Hint: Price
+      Value: $1079.00
+    - ID: "a7a9e7db-2d07-4600-ba59-19b75984d982"
+      Hint: Specification
+      Value: |
+        <table width="100%" border="0" cellpadding="4" cellspacing="0">
+          <tbody><tr><td style="background: #f5f5f5"><strong>Type</strong></td><td style="background: #f5f5f5">Wall</td></tr><tr><td style="background: #fff"><strong>EER</strong></td><td style="background: #fff">9.4</td></tr><tr><td style="background: #f5f5f5"><strong>Amps</strong></td><td style="background: #f5f5f5">6.7</td></tr><tr><td style="background: #fff"><strong>Voltage</strong></td><td style="background: #fff">230/208 V</td></tr><tr><td style="background: #f5f5f5"><strong>Cooling BTU</strong></td><td style="background: #f5f5f5">14500</td></tr><tr><td style="background: #fff"><strong>Heating BTU</strong></td><td style="background: #fff">11000</td></tr><tr><td style="background: #f5f5f5"><strong>CFM Room Circulation</strong></td><td style="background: #f5f5f5">290</td></tr><tr><td style="background: #fff"><strong>Chassis Type</strong></td><td style="background: #fff">Thru the Wall</td></tr><tr><td style="background: #f5f5f5"><strong>Control Type</strong></td><td style="background: #f5f5f5">Digital</td></tr><tr><td style="background: #fff"><strong>Heat</strong></td><td style="background: #fff">Yes</td></tr><tr><td style="background: #f5f5f5"><strong>Remote Included</strong></td><td style="background: #f5f5f5">Yes</td></tr><tr><td style="background: #fff"><strong>Wall Sleeve Included</strong></td><td style="background: #fff">No</td></tr><tr><td style="background: #f5f5f5"><strong>ADA Compliant</strong></td><td style="background: #f5f5f5">No</td></tr><tr><td style="background: #fff"><strong>Parts Warranty</strong></td><td style="background: #fff">1 Year</td></tr><tr><td style="background: #f5f5f5"><strong>Labor Warranty</strong></td><td style="background: #f5f5f5">1 Year</td></tr>  <tr><td width="35%">&nbsp;</td><td width="65%">&nbsp;</td></tr>
+          </tbody></table>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Abt Model: WE15D33A | UPC Code: 724587432800"
+    - ID: "c236fb11-ab2f-42a7-92a7-09a9258e2637"
+      Hint: Product Title
+      Value: "Friedrich-14-500-BTU-9.4-EER-230V-Wall-Sleeve-Air-Conditioner-WE15D33A"
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "Friedrich-14-500-BTU-9.4-EER-230V-Wall-Sleeve-Air-Conditioner-WE15D33A"
+    - ID: "de1430c5-291b-40c2-ad2d-709efbb7360a"
+      Hint: Short Description
+      Value: "14,500 Cooling BTU/ 11,000 Heating BTU/ 9.4 EER/ 290 CFM/ 4.8 Pints/Hour Moisture Removal/ 3-Speed Fan/ Check Filter Reminder/ Auto-Restart/ Electronic Defrost Control/ Washable, Antimicrobial Filter/ Rotary Compressor/ Rifled Copper Tubing/ Impact Resistant Front Cover/ R-410A Refrigerant/ EntryGard Anti-Intrusion Protection/ White Finish"
+    - ID: "fdc46723-8fd1-44c0-9938-c7bc00a81768"
+      Hint: Reviews
+      Value: |
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><span><strong>James Horner</strong></span>&nbsp;<span>on 20/01/2017 (14:50hrs)</span>
+        <p style="margin-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&nbsp;<br />
+        et dolore magna aliqua. Ut enim ad minim veniam ...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: transparent; text-decoration: none;">&raquo;</a></span></p>
+        </div>
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><span><strong>James Horner</strong></span>&nbsp;<span>on 20/01/2017 (14:50hrs)</span>
+        <p style="margin-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&nbsp;<br />
+        et dolore magna aliqua. Ut enim ad minim veniam ...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: transparent; text-decoration: none;">&raquo;</a></span></p>
+        </div>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+                <metadata>
+                                <id>SmartLife</id>
+                                <version>1.0.0.0</version>
+                                <title>Smart Life Site Package</title>
+                                <authors>Sitecore CoE</authors>
+                                <description>Smart Life CI CD Setup </description>
+                </metadata>
+                <files>
+                                <file src="App_Config\**\*.config" target="App_Config" />
+                                <file src="bin\**\*" target="bin" />
+                                <file src="Views\**\*" target="Views"/>
+                                <file src="fonts\**\*" target="fonts"/>
+                                <file src="Styles\**\*" target="Styles"/>
+                                <file src="Scripts\**\*" target="Scripts"/>
+                                <file src="sitecore\**\*" target="Sitecore"/>
+                                <file src="bower.json" target="" />
+                                <file src="favicon.ico" target="" />
+                                <file src="Web.config.transform" target="" />
+                                <file src="Unicorn\**\*.*" target="Unicorn" />
+  </files>
+</package>

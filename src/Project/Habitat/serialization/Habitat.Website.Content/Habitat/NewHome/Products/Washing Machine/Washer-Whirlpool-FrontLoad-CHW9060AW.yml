@@ -1,0 +1,133 @@
+﻿---
+ID: "76172b51-2fa4-420a-b3bd-5af7af194787"
+Parent: "0275a11c-f8b8-4ac0-a76c-ca64ce58a5a8"
+Template: "c5b8584b-a263-4169-aea1-2ff6a1cff371"
+Path: "/sitecore/content/Habitat/NewHome/Products/Washing Machine/Washer-Whirlpool-FrontLoad-CHW9060AW"
+DB: master
+SharedFields:
+- ID: "0be11d55-96e6-408a-be0e-83836db67232"
+  Hint: "Product-Image"
+  Value: |
+    <image mediaid="{27703C4F-02E6-4FB9-A3F2-18886BB40669}" />
+- ID: "4b517cb2-ab6e-4512-bec3-943778e02bb2"
+  Hint: "Product-Large-Image"
+  Value: |
+    <image mediaid="{27703C4F-02E6-4FB9-A3F2-18886BB40669}" />
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{897E0D6D-31D0-4DA2-8684-27ACD96A7330}"
+        name="Smartlifeappliances-Category-Profile"
+        presets="washingmachine-profilecard-persona|100||">
+        <key
+          name="WashingMachine"
+          value="1" />
+        <key
+          name="AC"
+          value="0" />
+        <key
+          name="Referigerator"
+          value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d4a62ee-bf47-4fbe-b35a-55631cced460"
+      Hint: Features
+      Value: |
+        <ul>
+          <li>High-Efficiency, Low Water Usage Offers Outstanding Utility-Savings </li>
+          <li>High-Speed Spin Helps Reduce Dry Time</li>
+          <li> Combination of 3 Cycles and 3 Temp Options Provide Great Cleaning </li>
+          <li>Automatic Water Level Sensing Control</li>
+          <li> Microprocessor Controls With Time Remaining Display </li>
+          <li>Front Push Button Controls For Ease-of-Use </li>
+          <li>130 Degree Door Opening with Heavy-Duty Die-Cast Hinges</li>
+          <li> Soft-Mount Design for Easy Installation, Removable Front Service Panel. </li>
+          <li>Durable Industrial Grade Cabinet, Top with Integrated Backsplash </li>
+        </ul>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: |
+        Whirlpool 27" Front-Load Washer-CHW9060AW
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T095715Z
+    - ID: "398aaabe-2e1a-4e7c-a4a6-0f7afc544d93"
+      Hint: Description
+      Value: |
+        3.1 Cu. Ft. High-Speed Spin/ Automatic Water Level Sensing Control/ Microprocessor Controls With Time Remaining Display/ 130 Degree Door Opening/ High-Efficiency, Low Water Usage Offers Outstanding Utility-Savings/ Left Door Swing/ White Finish
+        
+        <li><strong>Number of Temperatures: </strong>3 </li>
+        <li><strong>Temperature Selections:</strong>
+        <ul>
+            <li> Cold</li>
+            <li> Hot</li>
+            <li> Warm   </li>
+        </ul>
+        </li>
+        <li><strong>LED Color: </strong>Blue </li>
+        <li><strong>Drum Material: </strong>Stainless Steel </li>
+        <li><strong>Hoses Included:</strong> Yes </li>
+        <li><strong>Length of Drain Hose (ft): </strong>6 </li>
+        <li><strong>Length of Inlet Hose (ft): </strong>4 </li>
+        <li><strong>Motor Horsepower: </strong>1/2 HP </li>
+        <li><strong>Water Factor: </strong>4.2</li>
+    - ID: "40d24aa7-4aaf-48c1-86bb-b0f00c3dc525"
+      Hint: Discounted Price
+      Value: $1349.00
+    - ID: "71d65caf-388f-4a54-b386-5c0cafc6cde1"
+      Hint: Shipping
+      Value: Free Shipping
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{9390BE40-D49E-4B30-83DF-A6C38E6BFB3A}"></image>
+    - ID: "9d615e6c-6493-4a5a-9f15-27adf03ea198"
+      Hint: Price
+      Value: $1499.00
+    - ID: "a7a9e7db-2d07-4600-ba59-19b75984d982"
+      Hint: Specification
+      Value: |
+        <table width="100%" border="0" cellpadding="4" cellspacing="0">
+          <tbody><tr><td style="background: #f5f5f5"><strong>Capacity (cu. ft.)</strong></td><td style="background: #f5f5f5">3.1</td></tr><tr><td style="background: #fff"><strong>Width</strong></td><td style="background: #fff">29.25</td></tr><tr><td style="background: #f5f5f5"><strong>Height</strong></td><td style="background: #f5f5f5">45.75</td></tr><tr><td style="background: #fff"><strong>Depth</strong></td><td style="background: #fff">27</td></tr><tr><td style="background: #f5f5f5"><strong>Voltage</strong></td><td style="background: #f5f5f5">120 V</td></tr><tr><td style="background: #fff"><strong>Coin Box Included</strong></td><td style="background: #fff">No</td></tr><tr><td style="background: #f5f5f5"><strong>Coin Drop Included</strong></td><td style="background: #f5f5f5">No</td></tr><tr><td style="background: #fff"><strong>Coin Slide Included</strong></td><td style="background: #fff">No</td></tr><tr><td style="background: #f5f5f5"><strong>Reversible Door</strong></td><td style="background: #f5f5f5">No</td></tr><tr><td style="background: #fff"><strong>ADA Compliant</strong></td><td style="background: #fff">No</td></tr>  <tr><td width="35%">&nbsp;</td><td width="65%">&nbsp;</td></tr>
+          </tbody></table>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Commercial washing machines make all the difference in coin-operated laundry business."
+    - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
+      Hint: MetaDescription
+      Value: |
+        Whirlpool 27" White High-Efficiency Front-Load Commercial Washer - CHW9060AW
+    - ID: "c236fb11-ab2f-42a7-92a7-09a9258e2637"
+      Hint: Product Title
+      Value: |
+        Whirlpool 27" White High-Efficiency Front-Load Commercial Washer - CHW9060AW
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: |
+        Whirlpool 27" Front-Load Washer-CHW9060AW
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: |
+        Whirlpool 27" Front-Load Commercial Washer - CHW9060AW
+    - ID: "de1430c5-291b-40c2-ad2d-709efbb7360a"
+      Hint: Short Description
+      Value: "3.1 Cu. Ft. High-Speed Spin/ Automatic Water Level Sensing Control/ Microprocessor Controls With Time Remaining Display/ 130 Degree Door Opening/ High-Efficiency, Low Water Usage Offers Outstanding Utility-Savings/ Left Door Swing/ White Finish"
+    - ID: "fdc46723-8fd1-44c0-9938-c7bc00a81768"
+      Hint: Reviews
+      Value: |
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><span><strong>James Horner</strong></span>&nbsp;<span>on 20/01/2017 (14:50hrs)</span>
+        <p style="margin-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&nbsp;<br />
+        et dolore magna aliqua. Ut enim ad minim veniam ...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: transparent; text-decoration: none;">&raquo;</a></span></p>
+        </div>
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><span><strong>James Horner</strong></span>&nbsp;<span>on 20/01/2017 (14:50hrs)</span>
+        <p style="margin-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&nbsp;<br />
+        et dolore magna aliqua. Ut enim ad minim veniam ...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: transparent; text-decoration: none;">&raquo;</a></span></p>
+        </div>

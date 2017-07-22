@@ -1,0 +1,14 @@
+﻿---
+ID: "710c782a-9048-42c6-b40b-70d67c5b9dd2"
+Parent: "7d732877-5b7e-4aec-bfaf-15a0e5ab1085"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Habitat/Global/Products/Page Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170406T095617Z

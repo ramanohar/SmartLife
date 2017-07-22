@@ -1,0 +1,70 @@
+﻿---
+ID: "ade4287d-37c8-4d94-8ab6-a95df65efd26"
+Parent: "4bc8a78c-44a7-46eb-8126-040d3f12caa0"
+Template: "ffb1da32-2764-47db-83b0-95b843546a7e"
+Path: /sitecore/system/Modules/Web Forms for Marketers/Habitat/Reach Us
+DB: master
+SharedFields:
+- ID: "0f110210-9ea9-47c6-93af-7dce616c3602"
+  Hint: Custom Css Class
+  Value: 
+- ID: "1eb9307a-76ba-4377-b355-e918492be61f"
+  Hint: Form Type
+  Value: "{9B41AAEC-93DB-451F-AD33-630738A4EAFC}"
+- ID: "46fb324a-9741-43bd-a0c9-5081a39d40aa"
+  Hint: Show Introduction
+  Type: Checkbox
+  Value: 1
+- ID: "6ce71d0b-99ad-43de-b669-cadada362ba0"
+  Hint: Form Alignment
+  Value: "{A2EDA278-A892-4E7C-91E6-DB6C9915C659}"
+- ID: "6ee0e3cc-de5b-4295-8812-e433ea4d5277"
+  Hint: Left Column Style
+  Value: "col-md-2 col-xs-2 col-lg-2 col-sm-2"
+- ID: "9bdf1f5b-b99d-47e5-bfd9-935373c97c0d"
+  Hint: Right Column Style
+  Value: "col-md-10 col-xs-10 col-lg-10 col-sm-10"
+- ID: "a42052f7-6c18-424a-a2a1-7a72054cb1a6"
+  Hint: Show Title
+  Type: Checkbox
+  Value: 1
+- ID: "af08c32b-f101-44a4-baae-677383e8eb02"
+  Hint: Check Actions
+  Value: |
+    <?xml version="1.0" encoding="utf-16"?>
+    <li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <g id="{10FE9225-5E6C-4896-9CD2-880D6D48C4CC}" displayName="Check Actions" />
+    </li>
+- ID: "faeacd39-b059-4f46-bec4-74ba468a97b8"
+  Hint: Show Footer
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f2414bd-a95d-419c-a238-a6637a3fab76"
+      Hint: Introduction
+      Value: |
+        <p class="lead">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170323T061601Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6739fa82-a9b4-40f1-aefe-3d67ae3e8dfc"
+      Hint: Title Tag
+      Value: H2
+    - ID: "86d6a401-5a20-49c9-a2f8-0312398ee946"
+      Hint: Title
+      Value: Drop Your Message
+    - ID: "9c4c1994-5140-49d3-bad7-db997816f816"
+      Hint: Success Page
+      Value: |
+        <link id="{00000000-0000-0000-0000-000000000000}" />
+    - ID: "b71296b6-32b9-4703-a8cb-fb7437271103"
+      Hint: Name
+      Value: Submit Message

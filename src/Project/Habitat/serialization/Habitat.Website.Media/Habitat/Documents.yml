@@ -1,0 +1,14 @@
+﻿---
+ID: "9e9798f1-9f5f-436f-b302-1891e296d092"
+Parent: "aa13447e-0fc7-4eab-8244-1e4c5185bd67"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Habitat/Documents
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170413T041528Z

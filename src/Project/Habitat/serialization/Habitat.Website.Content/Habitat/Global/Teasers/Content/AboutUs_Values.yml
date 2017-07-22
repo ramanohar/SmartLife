@@ -1,0 +1,43 @@
+﻿---
+ID: "4e29a6f5-35bf-4416-8385-5cc1675af116"
+Parent: "8508f499-b20d-4505-a5c8-66cdb715d748"
+Template: "af74a00b-8ca7-4c9a-a5c1-156a68590ee2"
+Path: /sitecore/content/Habitat/Global/Teasers/Content/AboutUs_Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170330T112146Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: |
+        <span style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<span class="Apple-converted-space">&nbsp;</span></span><br style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;" />
+        <span style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;">et dolore magna aliqua. Ut enim ad minim veniam</span>
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Values
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170330T112146Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: |
+        <span style="text-align: center; letter-spacing: normal; background-color: #ffffff; color: #4e4e4e;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<span class="Apple-converted-space">&nbsp;</span></span><br style="text-align: center; color: #4e4e4e; letter-spacing: normal; background-color: #ffffff;" />
+        <span style="text-align: center; letter-spacing: normal; background-color: #ffffff; color: #4e4e4e;">et dolore magna aliqua. Ut enim ad minim veniam</span>
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Values

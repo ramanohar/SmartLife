@@ -1,0 +1,19 @@
+﻿@using Sitecore.Feature.Identity
+@using Sitecore.Feature.Identity.Repositories
+@using Sitecore.Foundation.Dictionary.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Foundation.Theming.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+    var identity = IdentityRepository.Get(Model.Item);
+    if (identity == null)
+    {
+        return;
+    }
+}
+<div class="top-number @Model.Rendering.GetBackgroundClass()">
+    @if (Sitecore.Context.PageMode.IsExperienceEditor || identity.FieldHasValue(Templates.Identity.Fields.OrganisationPhone))
+    {
+        <p><i class="fa fa-phone-square"></i>@Html.Sitecore().Field(Templates.Identity.Fields.OrganisationPhone, identity)</p>
+    }
+</div>

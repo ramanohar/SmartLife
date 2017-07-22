@@ -1,0 +1,18 @@
+﻿---
+ID: "4e116672-0acb-4b9b-ab4c-c3a3670cbc14"
+Parent: "4873f419-ebdb-4a52-a4c1-636ec1c81660"
+Template: "920a1781-559f-4e1c-bb2e-6b9a2113fe6b"
+Path: /sitecore/content/Habitat/Global/Media/ABTest/ImageItems
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170411T100446Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

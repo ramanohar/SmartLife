@@ -1,0 +1,61 @@
+﻿@using Sitecore.Feature.Media
+@using Sitecore.Feature.Media.Repositories
+@using Sitecore.Foundation.Alerts
+@using Sitecore.Foundation.Alerts.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Resources.Media
+@model Sitecore.Mvc.Presentation.RenderingModel
+@if (!Model?.Item?.IsDerived(Templates.HasMediaSelector.ID) ?? true)
+{
+    @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.HasMediaSelector.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
+    return;
+}
+@{
+    var carouselId = "carousel" + Guid.NewGuid().ToString("N");
+    var elements = MediaSelectorElementsRepository.Get(Model.Item).ToArray();
+}
+
+<div id="about-slider">
+    <div id="carousel-slider" class="carousel slide" data-ride="carousel" @(Sitecore.Context.PageMode.IsExperienceEditor ? "data-interval" : "")>
+        <!-- Indicators -->
+        <ol class="carousel-indicators visible-xs">
+            @for (var i = 0; i < elements.Length; i++)
+            {
+                <li data-target="#@carouselId" data-slide-to="@i" class="@elements[i].Active"></li>
+            }
+        </ol>
+
+        <div class="carousel-inner">
+            @foreach (var element in elements)
+            {
+                <div class="item @element.Active">
+                    @Html.Sitecore().ImageField(Templates.HasMediaImage.Fields.Image, @element.Item, cssClass: "img-responsive")
+                </div>
+            }
+        </div>
+        <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+        </a>
+
+        <a class="right carousel-control hidden-xs" href="#carousel-slider" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+        </a>
+    </div> <!--/#carousel-slider-->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

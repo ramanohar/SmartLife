@@ -1,0 +1,66 @@
+﻿---
+ID: "a53e1a56-4fef-4108-803e-99281c8e82b3"
+Parent: "89a9b8de-d723-4188-81ef-4e16403b0988"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Habitat/Images/Logo/logo1
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/A53E1A564FEF4108803E99281C8E82B3.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 223
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "ddd8cbc4-6b7d-4afe-8f21-12a1eb12dcb0"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 3149
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 223 x 70
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 70
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170413T115814Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170413T115814Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170413T115814Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

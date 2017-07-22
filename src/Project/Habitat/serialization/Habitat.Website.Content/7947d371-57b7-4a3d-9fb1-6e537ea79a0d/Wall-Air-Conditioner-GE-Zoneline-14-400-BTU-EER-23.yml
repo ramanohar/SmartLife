@@ -1,0 +1,131 @@
+﻿---
+ID: "acac1b7b-2c0e-40c1-88df-cd35378704d8"
+Parent: "7947d371-57b7-4a3d-9fb1-6e537ea79a0d"
+Template: "c5b8584b-a263-4169-aea1-2ff6a1cff371"
+Path: "/sitecore/content/Habitat/NewHome/Products/Air Conditioner/Wall-Air-Conditioner-GE-Zoneline-14-400-BTU-EER-230V-AZ65H15DAB"
+DB: master
+SharedFields:
+- ID: "0be11d55-96e6-408a-be0e-83836db67232"
+  Hint: "Product-Image"
+  Value: |
+    <image mediaid="{21EC3E46-6552-45B6-8F1B-8CDE97FC7A8C}" />
+- ID: "4b517cb2-ab6e-4512-bec3-943778e02bb2"
+  Hint: "Product-Large-Image"
+  Value: |
+    <image mediaid="{21EC3E46-6552-45B6-8F1B-8CDE97FC7A8C}" />
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{4C7FD0A7-7ED8-4BF4-89A3-D7A08A4B0CEB}"
+        name="Smartlifeappliances-Products-Profile"
+        presets="gezoneline-persona|100||">
+        <key
+          name="Frigidaire-ProfileKey"
+          value="0" />
+        <key
+          name="GEZoneline-ProfileKey"
+          value="1" />
+        <key
+          name="Maytag27WhiteEco-ProfileKey"
+          value="0" />
+        <key
+          name="BeverageAirMarketMaxMMRF-ProfileKey"
+          value="0" />
+        <key
+          name="Samsung48Cu-ProfileKey"
+          value="0" />
+        <key
+          name="AvantcoCFD-2RR-G-ProfileKey"
+          value="0" />
+      </profile>
+      <profile
+        id="{897E0D6D-31D0-4DA2-8684-27ACD96A7330}"
+        name="Smartlifeappliances-Category-Profile"
+        presets="ac-profilecard-persona|100||">
+        <key
+          name="WashingMachine"
+          value="0" />
+        <key
+          name="AC"
+          value="1" />
+        <key
+          name="Referigerator"
+          value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d4a62ee-bf47-4fbe-b35a-55631cced460"
+      Hint: Features
+      Value: |
+        <ul>
+          <li><strong>Cooling capacity</strong><br />
+          14,400/14,200 BTU</li>
+          <li><strong>Energy efficiency </strong><br />
+          10.6/10.6 EER; on average 8% more efficient than the leading competitor</li>
+          <li><strong>Dehumidification</strong><br />
+        4.8 pints/hour</li>
+          <li><strong>Reverse heat cycle </strong><br />
+          13,500/13.400 BTUH</li>
+          <li><strong>Heat pump efficiency</strong><br />
+            3.3/3.3 COP<br />
+          </li>
+        </ul>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: "GE Zoneline 14,400 BTU 10.6 EER 230V Wall Air Conditioner - AZ65H15DAB"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T095715Z
+    - ID: "398aaabe-2e1a-4e7c-a4a6-0f7afc544d93"
+      Hint: Description
+      Value: Provides comfortable 360 degree airflow with improved temperature distribution. It can maintain comfort even if air discharge speed is lower. Airflow distribution create uniform comfort throughout the space, even in spaces with high ceilings, a comfortable airflow is carried down to the floor level. Because air flows out from corner outlets, comfort spreads more easily. To prevant dirt sticking with external panels, they have been coated with surface treatment.
+    - ID: "40d24aa7-4aaf-48c1-86bb-b0f00c3dc525"
+      Hint: Discounted Price
+      Value: $1106.00
+    - ID: "71d65caf-388f-4a54-b386-5c0cafc6cde1"
+      Hint: Shipping
+      Value: Free Shipping
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{0E516082-0DB5-4236-BE5C-04CBF2BBD046}" />
+    - ID: "9d615e6c-6493-4a5a-9f15-27adf03ea198"
+      Hint: Price
+      Value: $1229.00
+    - ID: "a7a9e7db-2d07-4600-ba59-19b75984d982"
+      Hint: Specification
+      Value: |
+        <table width="100%" border="0" cellpadding="4" cellspacing="0">
+          <tbody><tr><td style="background: #fff"><strong>Type</strong></td><td style="background: #fff">Wall</td></tr><tr><td style="background: #f5f5f5"><strong>EER</strong></td><td style="background: #f5f5f5">10.6</td></tr><tr><td style="background: #fff"><strong>Amps</strong></td><td style="background: #fff">6.1/6.5, 5.2-5.6</td></tr><tr><td style="background: #f5f5f5"><strong>Voltage</strong></td><td style="background: #f5f5f5">230/208 V</td></tr><tr><td style="background: #fff"><strong>Cooling BTU</strong></td><td style="background: #fff">14400</td></tr><tr><td style="background: #f5f5f5"><strong>Heating BTU</strong></td><td style="background: #f5f5f5">13500</td></tr><tr><td style="background: #fff"><strong>CFM Room Circulation</strong></td><td style="background: #fff">449</td></tr><tr><td style="background: #f5f5f5"><strong>Chassis Type</strong></td><td style="background: #f5f5f5">Slide-In</td></tr><tr><td style="background: #fff"><strong>Control Type</strong></td><td style="background: #fff">Digital</td></tr><tr><td style="background: #f5f5f5"><strong>Heat</strong></td><td style="background: #f5f5f5">Yes</td></tr><tr><td style="background: #fff"><strong>Remote Included</strong></td><td style="background: #fff">No</td></tr><tr><td style="background: #f5f5f5"><strong>Wall Sleeve Included</strong></td><td style="background: #f5f5f5">No</td></tr><tr><td style="background: #fff"><strong>ADA Compliant</strong></td><td style="background: #fff">No</td></tr><tr><td style="background: #f5f5f5"><strong>Parts Warranty</strong></td><td style="background: #f5f5f5">1 Year</td></tr><tr><td style="background: #fff"><strong>Labor Warranty</strong></td><td style="background: #fff">1 Year</td></tr>  <tr><td width="35%">&nbsp;</td><td width="65%">&nbsp;</td></tr>
+          </tbody></table>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Abt Model: AZ65H15DAB | UPC Code: 084691815624"
+    - ID: "c236fb11-ab2f-42a7-92a7-09a9258e2637"
+      Hint: Product Title
+      Value: "GE Zoneline 14,400 BTU 10.6 EER 230V Wall Air Conditioner - AZ65H15DAB"
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "GE Zoneline 14,400 BTU 10.6 EER 230V Wall Air Conditioner - AZ65H15DAB"
+    - ID: "de1430c5-291b-40c2-ad2d-709efbb7360a"
+      Hint: Short Description
+      Value: |
+        14,400 BTU Cooling BTUH (Max)/ 10.6 EER/ 449 CFM Indoor Fan High/ 4.8 Pts./Hr. Dehumidification/ 13500/13400 Heating - Reverse Cycle - BTUH/ 75 Vent CFM/ "Sleep" Mode/ 3-Stage Heating Design/ Tactile Touch Pad With LED Display/ Remote Thermostat Compatibility/ 60 - 85 F Temperature Range/ Beige Finish
+    - ID: "fdc46723-8fd1-44c0-9938-c7bc00a81768"
+      Hint: Reviews
+      Value: |
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><span><strong>James Horner</strong></span>&nbsp;<span>on 20/01/2017 (14:50hrs)</span>
+        <p style="margin-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&nbsp;<br />
+        et dolore magna aliqua. Ut enim ad minim veniam ...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: transparent; text-decoration: none;">&raquo;</a></span></p>
+        </div>
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><span><strong>James Horner</strong></span>&nbsp;<span>on 20/01/2017 (14:50hrs)</span>
+        <p style="margin-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&nbsp;<br />
+        et dolore magna aliqua. Ut enim ad minim veniam ...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: transparent; text-decoration: none;">&raquo;</a></span></p>
+        </div>

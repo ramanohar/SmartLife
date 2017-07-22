@@ -1,0 +1,29 @@
+﻿---
+ID: "fec635ed-e89d-421f-a4bf-303fec5ff6e6"
+Parent: "20dd980b-cd20-45f7-987b-8d3c91b30d6d"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
+Path: /sitecore/content/Habitat/Global/Links/Footer Menu/Footer Bottom Menu/Contact Us
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Contact Us
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170320T092135Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{2ABA912F-1AB6-4519-95B0-9EE9BB963DEE}" />

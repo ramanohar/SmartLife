@@ -1,0 +1,156 @@
+﻿---
+ID: "1347b899-079a-406d-b8ff-64cd83502fa7"
+Parent: "0275a11c-f8b8-4ac0-a76c-ca64ce58a5a8"
+Template: "c5b8584b-a263-4169-aea1-2ff6a1cff371"
+Path: "/sitecore/content/Habitat/NewHome/Products/Washing Machine/Washer-SpeedQueen-White-FrontLoad-LFNE5BSP113TW01"
+DB: master
+SharedFields:
+- ID: "0be11d55-96e6-408a-be0e-83836db67232"
+  Hint: "Product-Image"
+  Value: |
+    <image mediaid="{D8B76474-AF66-4A95-B33B-6B10ADD2378A}" />
+- ID: "4b517cb2-ab6e-4512-bec3-943778e02bb2"
+  Hint: "Product-Large-Image"
+  Value: |
+    <image mediaid="{D8B76474-AF66-4A95-B33B-6B10ADD2378A}" />
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{897E0D6D-31D0-4DA2-8684-27ACD96A7330}"
+        name="Smartlifeappliances-Category-Profile"
+        presets="washingmachine-profilecard-persona|100||">
+        <key
+          name="WashingMachine"
+          value="1" />
+        <key
+          name="AC"
+          value="0" />
+        <key
+          name="Referigerator"
+          value="0" />
+      </profile>
+    </tracking>
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{A0999D72-6EA0-4A82-9576-E4EF697277E9}">
+          <p:d />
+        </r>
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d4a62ee-bf47-4fbe-b35a-55631cced460"
+      Hint: Features
+      Value: |
+        <ul>
+          <li>Suspension with out-of-balance logic </li>
+          <li> Industry leading 1200 spin speed exerts  440 g-force extraction </li>
+          <li> U.S. DOE compliance for energy and  water efficiencies </li>
+          <li> ADA compliant </li>
+          <li> Commercial-grade stainless steel washtub </li>
+          <li> Extra-wide 15.5¢© door opening and 180¨¬ door swing </li>
+          <li> Four compartment supply dispenser</li>
+          <li>Revolutionary balancing technology redistributes and balances even the most unbalanced loads. </li>
+          <li>2.5 times less noise reduces impact on neighboring residents. Virtually imperceptible vibration.</li>
+          <li>20% larger capacity with only a 6% increase in water usage for improved efficiency. </li>
+          <li>10¡Æ tilted control panel for easy reading without bending over.</li>
+          <li> User-friendly Electronic Homestyle Control offers intuitive touch buttons for easy selection of wash options.</li>
+          <li><strong>Electric Controls:</strong>
+        <ul>
+              <li>Cycle indicator lights </li>
+            <li> Three wash temperatures  Hot, warm, cold </li>
+            <li> Three soil levels  Light, medium, heavy</li>
+            <li> Digital display</li>
+        </ul>
+          </li>
+        </ul>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: "SpeedQueen-White-FrontLoad-LFNE5BSP113TW01"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170316T095715Z
+    - ID: "398aaabe-2e1a-4e7c-a4a6-0f7afc544d93"
+      Hint: Description
+      Value: |
+        <p>With revolutionary balancing technology, virtually imperceptible noise and vibration, incredible 440 G-Force extraction and a redesigned, 10-degree tilted control panel, Speed Queen front load washers are engineered and built to be everything you never knew they could be.</p>
+        <p><strong>Technical Info</strong></p>
+        <ul>
+            <li><strong>Stainless Steel Cylinder Volume - cu. ft. (liters): </strong>3.42 (96.8)</li>
+            <li><strong>Electrical Requirements:</strong> 120/60/1-15 amp</li>
+            <li><strong>Cycles:</strong>
+            <ul>
+                <li>Heavy Duty</li>
+                <li> Normal Eco</li>
+                <li> Perm Press</li>
+                <li> Delicate</li>
+                <li> Rinse and Spin</li>
+                <li> Spin Only</li>
+            </ul>
+            </li>
+            <li><strong>Temperature:</strong>
+            <ul>
+                <li>Hot</li>
+                <li> Warm</li>
+                <li>Cold</li>
+            </ul>
+            </li>
+            <li><strong>Motor: </strong>0.9 HP 671 W</li>
+            <li><strong>Water Pressure PSI (Bar) - 20-120:</strong> 1.4-8.3</li>
+            <li><strong>Spin Speeds - RPM: </strong>1200</li>
+        </ul>
+    - ID: "40d24aa7-4aaf-48c1-86bb-b0f00c3dc525"
+      Hint: Discounted Price
+      Value: $2005.00
+    - ID: "71d65caf-388f-4a54-b386-5c0cafc6cde1"
+      Hint: Shipping
+      Value: Free Shipping
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{28B53B43-EE72-46E4-9D3C-31B8078B8774}"></image>
+    - ID: "9d615e6c-6493-4a5a-9f15-27adf03ea198"
+      Hint: Price
+      Value: $2145.00
+    - ID: "a7a9e7db-2d07-4600-ba59-19b75984d982"
+      Hint: Specification
+      Value: |
+        <table width="100%" border="0" cellpadding="4" cellspacing="0">
+          <tbody><tr><td style="background: #f5f5f5"><strong>ADA Compliant Appliance Type</strong></td><td style="background: #f5f5f5">Commercial Washers</td></tr><tr><td style="background: #fff"><strong>Capacity (cu. ft.)</strong></td><td style="background: #fff">3.42</td></tr><tr><td style="background: #f5f5f5"><strong>Width</strong></td><td style="background: #f5f5f5">26.88</td></tr><tr><td style="background: #fff"><strong>Height</strong></td><td style="background: #fff">40.44</td></tr><tr><td style="background: #f5f5f5"><strong>Depth</strong></td><td style="background: #f5f5f5">27</td></tr><tr><td style="background: #fff"><strong>Voltage</strong></td><td style="background: #fff">120 V</td></tr><tr><td style="background: #f5f5f5"><strong>Coin Box Included</strong></td><td style="background: #f5f5f5">No</td></tr><tr><td style="background: #fff"><strong>Coin Drop Included</strong></td><td style="background: #fff">No</td></tr><tr><td style="background: #f5f5f5"><strong>Coin Slide Included</strong></td><td style="background: #f5f5f5">No</td></tr><tr><td style="background: #fff"><strong>Reversible Door</strong></td><td style="background: #fff">No</td></tr><tr><td style="background: #f5f5f5"><strong>ADA Compliant</strong></td><td style="background: #f5f5f5">Yes</td></tr>  <tr><td width="35%">&nbsp;</td><td width="65%">&nbsp;</td></tr>
+          </tbody></table>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Commercial washing machines make all the difference in a coin-operated laundry business."
+    - ID: "c236fb11-ab2f-42a7-92a7-09a9258e2637"
+      Hint: Product Title
+      Value: "Speed Queen White Commercial Front Load Washer - LFNE5BSP113TW01"
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "Speed Queen White Commercial Front Load Washer - LFNE5BSP113TW01"
+    - ID: "de1430c5-291b-40c2-ad2d-709efbb7360a"
+      Hint: Short Description
+      Value: "3.1 &nbsp;Cu. Ft. Capacity/ Suspension With Out-Of-Balance Logic/ Industry Leading 1200 Spin Speed Exerts 440 G-Force Extraction/ U.S. DOE Compliance For Energy And Water Efficiencies/ ADA Compliant/ Commercial-Grade Stainless Steel Washtub/ Extra-Wide 15.5&cent;&copy; Door Opening And 180 Degree Door Swing/ Four Compartment Supply Dispenser/ White Finish"
+    - ID: "fdc46723-8fd1-44c0-9938-c7bc00a81768"
+      Hint: Reviews
+      Value: |
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><span><strong>James Horner</strong></span>&nbsp;<span>on 20/01/2017 (14:50hrs)</span>
+        <p style="margin-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&nbsp;<br />
+        et dolore magna aliqua. Ut enim ad minim veniam ...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: transparent; text-decoration: none;">&raquo;</a></span></p>
+        </div>
+        <div class="review-clip" style="color: #4e4e4e; background-color: #ffffff;"><span><strong>James Horner</strong></span>&nbsp;<span>on 20/01/2017 (14:50hrs)</span>
+        <p style="margin-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&nbsp;<br />
+        et dolore magna aliqua. Ut enim ad minim veniam ...&nbsp;<span><a href="http://sitecorehabitat/Products/Product-2#" style="color: #c52d2f; background: transparent; text-decoration: none;">&raquo;</a></span></p>
+        </div>

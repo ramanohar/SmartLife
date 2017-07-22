@@ -1,0 +1,14 @@
+﻿---
+ID: "b8b1fbc3-0766-4ddd-8f2e-843fa8896ff5"
+Parent: "e03951f5-3052-4f8e-8e98-4ccd5f7f07ec"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Habitat/Images/Product Categories/Commercial Washers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170407T035851Z

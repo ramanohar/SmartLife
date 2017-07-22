@@ -1,0 +1,82 @@
+﻿@using Sitecore.Feature.Media
+@using Sitecore.Feature.Media.Repositories
+@using Sitecore.Foundation.Alerts
+@using Sitecore.Foundation.Alerts.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Resources.Media
+@using Sitecore.Links
+@model Sitecore.Mvc.Presentation.RenderingModel
+@if (!Model?.Item?.IsDerived(Templates.HasMediaSelector.ID) ?? true)
+{
+    @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.HasMediaSelector.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
+    return;
+}
+@{
+    var carouselId = "carousel" + Guid.NewGuid().ToString("N");
+    var elements = MediaSelectorElementsRepository.Get(Model.Item).ToArray();
+    var style = "background-image: ";
+    var backgroundImagefield = Templates.HasMediaBackgroundImage.Fields.BackgroundImage;
+    var imagefield = Templates.HasMediaImage.Fields.Image;
+}
+<section class="main-slider no-margin">
+    <div class="carousel slide">
+        <ol class="carousel-indicators">
+            @for (var i = 0; i < elements.Length; i++)
+            {
+                <li data-target="#main-slider" data-slide-to="@i" class="@elements[i].Active"></li>
+            }
+        </ol>
+        <div class="carousel-inner">
+            @foreach (var element in elements)
+            {
+                {
+                    style = "background-image: ";
+                    backgroundImagefield = element.Item.IsDerived(Templates.HasMediaVideo.ID) ? Templates.HasMedia.Fields.Thumbnail : Templates.HasMediaBackgroundImage.Fields.BackgroundImage;
+                    imagefield = element.Item.IsDerived(Templates.HasMediaVideo.ID) ? Templates.HasMedia.Fields.Thumbnail : Templates.HasMediaImage.Fields.Image;
+                    style += element.Item.ImageUrl(backgroundImagefield, new MediaUrlOptions()).ToCssUrlValue();
+
+                }
+                <div class="item @element.Active" style="@style">
+                    @{
+                        var imageUrl = element.Item.ImageUrl(imagefield, new MediaUrlOptions());
+                        var linkUrl = element.Item.LinkFieldUrl(Templates.HasMediaLink.Fields.LinkItem);
+                        var linkText = @Html.Sitecore().Field(Templates.HasMediaLink.Fields.LinkText, element.Item);
+                    }
+                    @if (element.Item.IsDerived(Templates.HasMediaVideo.ID))
+                    {
+                        <video autoplay="" loop="" muted="" class="video-bg">
+                            <source src="@element.Item.MediaUrl(Templates.HasMediaVideo.Fields.VideoLink)" type="video/mp4">
+                        </video>
+                    }
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">@Html.Sitecore().Field(Templates.HasMedia.Fields.Title, element.Item)</h1>
+                                    <h2 class="animation animated-item-2">@Html.Sitecore().Field(Templates.HasMedia.Fields.Description, element.Item)</h2>
+                                    @if (!string.IsNullOrEmpty(linkText.ToString()))
+                                    {
+                                        <a class="btn-slide animation animated-item-3" href="@linkUrl">@Html.Sitecore().Field(Templates.HasMediaLink.Fields.LinkText, element.Item)</a>
+                                    }
+                                </div>
+                            </div>
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="@imageUrl" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        }
+        </div>
+        <!--/.carousel-inner-->
+    </div>
+    <!--/.carousel-->
+    <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+        <i class="fa fa-chevron-left"></i>
+    </a>
+    <a class="next hidden-xs" href="#main-slider" data-slide="next">
+        <i class="fa fa-chevron-right"></i>
+    </a>
+</section>

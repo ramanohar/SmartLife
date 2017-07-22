@@ -1,0 +1,14 @@
+﻿---
+ID: "dbfb7c5d-f0ac-4935-bf2e-6895f6beac73"
+Parent: "9163e692-d8bf-4a8f-bf36-34a97ca3e378"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Habitat/Images/Product/Washers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170408T064649Z

@@ -1,0 +1,17 @@
+﻿---
+ID: "0275a11c-f8b8-4ac0-a76c-ca64ce58a5a8"
+Parent: "752b9a88-691d-4bf2-98a5-4a10b2e388eb"
+Template: "11dd8ffb-ce23-4cd5-9b1d-c491baca10f5"
+Path: /sitecore/content/Habitat/NewHome/Products/Washing Machine
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170407T124235Z
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Washing Machine

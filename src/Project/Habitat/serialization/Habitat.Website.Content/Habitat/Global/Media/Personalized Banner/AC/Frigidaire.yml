@@ -1,0 +1,114 @@
+﻿---
+ID: "d3b482b4-aad4-48da-8d2c-65be8788a5eb"
+Parent: "71a21ca8-5261-4f6d-80b2-97f3f4a21c30"
+Template: "c18d3794-d126-4548-bfc8-89358de6e9c1"
+Path: /sitecore/content/Habitat/Global/Media/Personalized Banner/AC/Frigidaire
+DB: master
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160112T160942Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "72ea8682-24d2-4beb-951c-3e2164974105"
+      Hint: MediaSelector
+      Type: Multilist
+      Value: |
+        {98D1970C-E669-448F-9E2A-DE9087A46F58}
+        {EC545DC1-F12B-4B22-8FEB-7F0A4211C0E8}
+        {69CF65FB-F46E-4038-BBFB-66695B9178E4}
+        {12CFA7C1-B5BD-4C99-B6F4-221423F2E0E1}
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160112T160942Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "72ea8682-24d2-4beb-951c-3e2164974105"
+      Hint: MediaSelector
+      Type: Multilist
+      Value: |
+        {98D1970C-E669-448F-9E2A-DE9087A46F58}
+        {EC545DC1-F12B-4B22-8FEB-7F0A4211C0E8}
+        {69CF65FB-F46E-4038-BBFB-66695B9178E4}
+        {12CFA7C1-B5BD-4C99-B6F4-221423F2E0E1}
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150902T071953Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "72ea8682-24d2-4beb-951c-3e2164974105"
+      Hint: MediaSelector
+      Type: Multilist
+      Value: |
+        {06745B67-5C38-4485-9391-8937CA65EC63}
+        {B8DC4E9B-D777-484A-8D69-8A31C8D56832}
+        {52ACA1EE-75A4-4AA0-9C33-03D8A9F34D10}
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150902T071953Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "72ea8682-24d2-4beb-951c-3e2164974105"
+      Hint: MediaSelector
+      Type: Multilist
+      Value: "{E48F1316-481B-44C9-970D-D58EFE8F0D5C}"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: カルーセル
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170323T054653Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "72ea8682-24d2-4beb-951c-3e2164974105"
+      Hint: MediaSelector
+      Type: Multilist
+      Value: |
+        {12CFA7C1-B5BD-4C99-B6F4-221423F2E0E1}
+        {69CF65FB-F46E-4038-BBFB-66695B9178E4}
+        {EC545DC1-F12B-4B22-8FEB-7F0A4211C0E8}
+        {98D1970C-E669-448F-9E2A-DE9087A46F58}
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170323T054653Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "72ea8682-24d2-4beb-951c-3e2164974105"
+      Hint: MediaSelector
+      Type: Multilist
+      Value: |
+        {12CFA7C1-B5BD-4C99-B6F4-221423F2E0E1}
+        {69CF65FB-F46E-4038-BBFB-66695B9178E4}
+        {EC545DC1-F12B-4B22-8FEB-7F0A4211C0E8}
+        {98D1970C-E669-448F-9E2A-DE9087A46F58}

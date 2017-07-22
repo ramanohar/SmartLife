@@ -1,0 +1,14 @@
+﻿---
+ID: "c0a791b8-72a5-4842-a498-42f6240e10cb"
+Parent: "5df31381-7027-49b7-81d4-919f0fa5e0c0"
+Template: "adb6ca4f-03ef-4f47-b9ac-9ce2ba53ff97"
+Path: /sitecore/content/Habitat/NewHome/Modules/Feature/News/News/2015/08/24/17/57
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151210T043731Z
