@@ -162,9 +162,9 @@ gulp.task("CI-Do-magic", function (callback) {
     runSequence(
         "CI-Clean",
         "CI-Publish",
-        //"CI-Copy-Unicorn-Items", //To be uncommented when moved to build server 
-		//"CI-Copy-Unicorn-Users", //To be uncommented when moved to build server 
-		//"CI-Copy-Unicorn-Roles", //To be uncommented when moved to build server 
+        "CI-Copy-Unicorn-Items", //To be uncommented when moved to build server 
+		"CI-Copy-Unicorn-Users", //To be uncommented when moved to build server 
+		"CI-Copy-Unicorn-Roles", //To be uncommented when moved to build server 
         //"CI-Clean",
         callback);
 });
