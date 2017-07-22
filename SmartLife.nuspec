@@ -17,6 +17,7 @@
                                 <file src="sitecore\**\*" target="Sitecore"/>
                                 <file src="bower.json" target="" />
                                 <file src="favicon.ico" target="" />
+                                <file src="Web.config.transform" target="" />
                                 <file src="Unicorn\**\*.*" target="Unicorn" />
   </files>
 </package>
